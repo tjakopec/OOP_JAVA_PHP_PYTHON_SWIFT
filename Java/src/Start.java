@@ -1,8 +1,242 @@
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import model.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Start {
+
+    private List<Partija> partije;
+    private Igrac igrac1;
+    private Igrac igrac2;
+    private Igrac igrac3;
+    private Igrac igrac4;
+    private Lokacija lokacija;
+
+    public Start() {
+
+        partije = new ArrayList<>();
+        igrac1 = kreirajIgraca1();
+        igrac2 = kreirajIgraca2();
+        igrac3 = new Igrac(3, "Marija", "Zimska", "https://picsum.photos/200", Igrac.ZENSKO);
+        igrac4 = new Igrac(4, "Anita", "Račman", "https://picsum.photos/200", Igrac.ZENSKO);
+        lokacija = kreirajLokaciju();
+
+        kreirajPartijuDvaIgraca();
+        kreirajPartijuTriIgraca();
+        kreirajPartijuDvaPara();
+
+
+        for (Partija partija: partije ) {
+            System.out.println(partija);
+        }
+
+        Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").serializeNulls().setPrettyPrinting().create();
+
+        System.out.println(gson.toJson(partije));
+
+    }
+
+    private void kreirajPartijuDvaPara() {
+        PartijaDvaPara partija = new PartijaDvaPara();
+        partija.setDoKolikoSeIgra(501);
+        partija.setLokacija(lokacija);
+        partija.setUnosi(igrac1);
+        List<Igrac> par1 = new ArrayList<>();
+        par1.add(igrac1);
+        par1.add(igrac2);
+        partija.setPrvi(par1);
+        List<Igrac> par2 = new ArrayList<>();
+        par2.add(igrac3);
+        par2.add(igrac4);
+        partija.setDrugi(par2);
+        partija.setMjesanja(kreirajMjesanjaDvaPara());
+
+        partije.add(partija);
+    }
+
+    private List<Mjesanje> kreirajMjesanjaDvaPara() {
+
+        List<Mjesanje> mjesanja = new ArrayList<>();
+
+        MjesanjeDvaUnosa m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(23);
+        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(20);
+
+        mjesanja.add(m);
+
+        m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(18);
+        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+
+        mjesanja.add(m);
+
+
+        m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(120);
+        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+        m.setStiglja(true);
+
+        mjesanja.add(m);
+
+
+
+        return mjesanja;
+
+    }
+
+    private void kreirajPartijuTriIgraca() {
+        PartijaTriIgraca partija = new PartijaTriIgraca();
+        partija.setDoKolikoSeIgra(501);
+        partija.setLokacija(lokacija);
+        partija.setUnosi(igrac1);
+        partija.setPrvi(igrac1);
+        partija.setDrugi(igrac2);
+        partija.setTreci(igrac3);
+        partija.setMjesanja(kreirajMjesanjaTriIgraca());
+
+        partije.add(partija);
+    }
+
+    private List<Mjesanje> kreirajMjesanjaTriIgraca() {
+        List<Mjesanje> mjesanja = new ArrayList<>();
+
+        MjesanjeTriUnosa m = new MjesanjeTriUnosa();
+        m.setBodovaPrviUnos(23);
+        m.setBodovaDrugiUnos(89);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(20);
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        mjesanja.add(m);
+
+        m = new MjesanjeTriUnosa();
+        m.setBodovaPrviUnos(18);
+        m.setBodovaDrugiUnos(51);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        mjesanja.add(m);
+
+
+        m = new MjesanjeTriUnosa();
+        m.setBodovaPrviUnos(120);
+        m.setBodovaDrugiUnos(0);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+        m.setStiglja(true);
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        mjesanja.add(m);
+
+        for (int i = 0; i < 3; i++) {
+            m = new MjesanjeTriUnosa();
+            m.setBodovaPrviUnos(45);
+            m.setBodovaDrugiUnos(23);
+            m.setZvanjePrviUnos(0);
+            m.setZvanjeDrugiUnos(0);
+            m.setStiglja(true);
+            m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+            mjesanja.add(m);
+        }
+
+
+        return mjesanja;
+    }
+
+    private void kreirajPartijuDvaIgraca() {
+        PartijaDvaIgraca partija = new PartijaDvaIgraca();
+        partija.setDoKolikoSeIgra(501);
+        partija.setLokacija(lokacija);
+        partija.setUnosi(igrac1);
+        partija.setPrvi(igrac1);
+        partija.setDrugi(igrac2);
+        partija.setMjesanja(kreirajMjesanjaDvaIgraca());
+
+        partije.add(partija);
+    }
+
+    private List<Mjesanje> kreirajMjesanjaDvaIgraca() {
+        List<Mjesanje> mjesanja = new ArrayList<>();
+
+        MjesanjeDvaUnosa m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(23);
+        m.setBodovaDrugiUnos(89);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(20);
+
+        mjesanja.add(m);
+
+        m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(18);
+        m.setBodovaDrugiUnos(51);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+
+        mjesanja.add(m);
+
+
+        m = new MjesanjeDvaUnosa();
+        m.setBodovaPrviUnos(120);
+        m.setBodovaDrugiUnos(0);
+        m.setZvanjePrviUnos(0);
+        m.setZvanjeDrugiUnos(0);
+        m.setStiglja(true);
+
+        mjesanja.add(m);
+
+        for (int i = 0; i < 8; i++) {
+            m = new MjesanjeDvaUnosa();
+            m.setBodovaPrviUnos(45);
+            m.setBodovaDrugiUnos(23);
+            m.setZvanjePrviUnos(0);
+            m.setZvanjeDrugiUnos(0);
+            m.setStiglja(true);
+
+            mjesanja.add(m);
+        }
+
+
+        return mjesanja;
+    }
+
+    private Lokacija kreirajLokaciju() {
+        Lokacija l = new Lokacija();
+        l.setSifra(1);
+        l.setNaziv("Caffe Bar Peppermint");
+        l.setLatitude(45.5605825);
+        l.setLongitude(18.6098766);
+        return l;
+    }
+
+    private Igrac kreirajIgraca1() {
+        Igrac i = new Igrac();
+        i.setSifra(1);
+        i.setIme("Tomislav");
+        i.setPrezime("Jakopec");
+        i.setUrlSlika("https://picsum.photos/200");
+        i.setSpol(Igrac.MUSKO);
+        return i;
+    }
+
+    private Igrac kreirajIgraca2() {
+        Igrac i = new Igrac();
+        i.setSifra(2);
+        i.setIme("Marijan");
+        i.setPrezime("Zidar");
+        i.setUrlSlika("https://picsum.photos/200");
+        i.setSpol(Igrac.MUSKO);
+        return i;
+    }
 
 
     public static void main(String[] args) {
-        System.out.println("Hello");
+        new Start();
     }
 
 }
