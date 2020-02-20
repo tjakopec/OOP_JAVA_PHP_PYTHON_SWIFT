@@ -2,9 +2,6 @@ package model;
 
 public class Igrac extends Entitet {
 
-    public static final int ZENSKO =0;
-    public static final int MUSKO =1;
-
     private String ime;
     private String prezime;
     private String urlSlika;

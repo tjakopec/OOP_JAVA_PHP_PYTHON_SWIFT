@@ -1,26 +1,17 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public abstract class Partija extends Entitet {
 
-    public abstract boolean isIgraGotova();
+    public abstract Rezulat getRezultat();
 
-    private String vrsta;
     private int doKolikoSeIgra;
     private Lokacija lokacija;
     private Igrac unosi;
     private List<Mjesanje> mjesanja = new ArrayList<>();
-
-
-    public String getVrsta(){
-     return vrsta;
-    }
-    public void setVrsta(String vrsta){
-        this.vrsta=vrsta;
-    }
+    private List<Igrac> igraci = new ArrayList<>();
 
 
     public int getDoKolikoSeIgra() {
@@ -55,13 +46,36 @@ public abstract class Partija extends Entitet {
         this.mjesanja = mjesanja;
     }
 
-    public int getUkupno(int redniBroj){
-        int ukupno=0;
-        for (Mjesanje m : mjesanja) {
-            ukupno+=m.getUkupno(redniBroj);
-        }
-        return ukupno;
+    public List<Igrac> getIgraci() {
+        return igraci;
     }
 
+    public void setIgraci(List<Igrac> igraci) {
+        this.igraci = igraci;
+    }
 
+    public boolean isIgraGotova() {
+
+        Rezulat rezulat = getRezultat();
+
+        if(rezulat.isPocetak()){
+            return false;
+        }
+
+        if(rezulat.getTreci()==0){
+            return rezulat.getPrvi()==rezulat.getDrugi() ? false : rezulat.getPrvi()>getDoKolikoSeIgra() || rezulat.getDrugi()>getDoKolikoSeIgra();
+        }else{
+            if(rezulat.getPrvi()==rezulat.getDrugi() || rezulat.getPrvi()==rezulat.getTreci() || rezulat.getDrugi()==rezulat.getTreci()){
+                return false;
+            }
+
+            /* ne treba jer imam na kraju return true
+            if (rezulat.getPrvi()>getDoKolikoSeIgra() || rezulat.getDrugi()>getDoKolikoSeIgra() || rezulat.getTreci()>getDoKolikoSeIgra()){
+                return true;
+            }
+            */
+        }
+
+        return true;
+    }
 }

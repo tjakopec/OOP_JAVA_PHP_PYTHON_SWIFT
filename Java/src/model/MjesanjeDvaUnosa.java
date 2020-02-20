@@ -43,14 +43,8 @@ public class MjesanjeDvaUnosa extends Mjesanje {
 
 
     @Override
-    public int getUkupno(int redniBroj) {
-        switch (redniBroj){
-            case Mjesanje.UKUPNO_PRVI_UNOS:
-                return this.bodovaPrviUnos + this.zvanjePrviUnos;
-            case Mjesanje.UKUPNO_DRUGI_UNOS:
-                return this.bodovaDrugiUnos + this.zvanjeDrugiUnos;
-                default:
-                    return 0;
-        }
+    public Rezulat getRezultat() {
+        return new Rezulat(getBodovaPrviUnos() + getZvanjePrviUnos(),
+                getBodovaDrugiUnos() + getZvanjeDrugiUnos());
     }
 }

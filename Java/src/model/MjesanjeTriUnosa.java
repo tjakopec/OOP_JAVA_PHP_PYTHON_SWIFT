@@ -23,15 +23,9 @@ public class MjesanjeTriUnosa extends MjesanjeDvaUnosa {
     }
 
     @Override
-    public int getUkupno(int redniBroj) {
-        switch (redniBroj){
-            case Mjesanje.UKUPNO_PRVI_UNOS:
-            case Mjesanje.UKUPNO_DRUGI_UNOS:
-                return super.getUkupno(redniBroj);
-            case Mjesanje.UKUPNO_TRECI_UNOS:
-                return this.bodovaTreciUnos + this.zvanjeTreciUnos;
-                default:
-                    return 0;
-        }
+    public Rezulat getRezultat() {
+        return new Rezulat(getBodovaPrviUnos() + getZvanjePrviUnos(),
+                getBodovaDrugiUnos() + getZvanjeDrugiUnos(),
+                getBodovaTreciUnos() + getZvanjeTreciUnos());
     }
 }

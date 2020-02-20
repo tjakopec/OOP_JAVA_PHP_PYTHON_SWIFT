@@ -19,8 +19,8 @@ public class Start {
         partije = new ArrayList<>();
         igrac1 = kreirajIgraca1();
         igrac2 = kreirajIgraca2();
-        igrac3 = new Igrac(3, "Marija", "Zimska", "https://picsum.photos/200", Igrac.ZENSKO);
-        igrac4 = new Igrac(4, "Anita", "Račman", "https://picsum.photos/200", Igrac.ZENSKO);
+        igrac3 = new Igrac(3, "Marija", "Zimska", "https://picsum.photos/200", Spol.ZENSKO.getId());
+        igrac4 = new Igrac(4, "Anita", "Račman", "https://picsum.photos/200", Spol.ZENSKO.getId());
         lokacija = kreirajLokaciju();
 
         kreirajPartijuDvaIgraca();
@@ -43,14 +43,12 @@ public class Start {
         partija.setDoKolikoSeIgra(501);
         partija.setLokacija(lokacija);
         partija.setUnosi(igrac1);
-        List<Igrac> par1 = new ArrayList<>();
-        par1.add(igrac1);
-        par1.add(igrac2);
-        partija.setPrvi(par1);
-        List<Igrac> par2 = new ArrayList<>();
-        par2.add(igrac3);
-        par2.add(igrac4);
-        partija.setDrugi(par2);
+        List<Igrac> igraci = new ArrayList<>();
+        igraci.add(igrac1);
+        igraci.add(igrac2);
+        igraci.add(igrac3);
+        igraci.add(igrac4);
+        partija.setIgraci(igraci);
         partija.setMjesanja(kreirajMjesanjaDvaPara());
 
         partije.add(partija);
@@ -97,9 +95,11 @@ public class Start {
         partija.setDoKolikoSeIgra(501);
         partija.setLokacija(lokacija);
         partija.setUnosi(igrac1);
-        partija.setPrvi(igrac1);
-        partija.setDrugi(igrac2);
-        partija.setTreci(igrac3);
+        List<Igrac> igraci = new ArrayList<>();
+        igraci.add(igrac1);
+        igraci.add(igrac2);
+        igraci.add(igrac3);
+        partija.setIgraci(igraci);
         partija.setMjesanja(kreirajMjesanjaTriIgraca());
 
         partije.add(partija);
@@ -113,7 +113,7 @@ public class Start {
         m.setBodovaDrugiUnos(89);
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(20);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
         mjesanja.add(m);
 
         m = new MjesanjeTriUnosa();
@@ -121,7 +121,7 @@ public class Start {
         m.setBodovaDrugiUnos(51);
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(0);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
         mjesanja.add(m);
 
 
@@ -131,7 +131,7 @@ public class Start {
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(0);
         m.setStiglja(true);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
         mjesanja.add(m);
 
         for (int i = 0; i < 3; i++) {
@@ -141,7 +141,7 @@ public class Start {
             m.setZvanjePrviUnos(0);
             m.setZvanjeDrugiUnos(0);
             m.setStiglja(true);
-            m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getUkupno(Mjesanje.UKUPNO_PRVI_UNOS) - m.getUkupno(Mjesanje.UKUPNO_DRUGI_UNOS));
+            m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
             mjesanja.add(m);
         }
 
@@ -154,8 +154,10 @@ public class Start {
         partija.setDoKolikoSeIgra(501);
         partija.setLokacija(lokacija);
         partija.setUnosi(igrac1);
-        partija.setPrvi(igrac1);
-        partija.setDrugi(igrac2);
+        List<Igrac> igraci = new ArrayList<>();
+        igraci.add(igrac1);
+        igraci.add(igrac2);
+        partija.setIgraci(igraci);
         partija.setMjesanja(kreirajMjesanjaDvaIgraca());
 
         partije.add(partija);
@@ -207,7 +209,7 @@ public class Start {
 
     private Lokacija kreirajLokaciju() {
         Lokacija l = new Lokacija();
-        l.setSifra(1);
+        l.setId(1);
         l.setNaziv("Caffe Bar Peppermint");
         l.setLatitude(45.5605825);
         l.setLongitude(18.6098766);
@@ -216,21 +218,21 @@ public class Start {
 
     private Igrac kreirajIgraca1() {
         Igrac i = new Igrac();
-        i.setSifra(1);
+        i.setId(1);
         i.setIme("Tomislav");
         i.setPrezime("Jakopec");
         i.setUrlSlika("https://picsum.photos/200");
-        i.setSpol(Igrac.MUSKO);
+        i.setSpol(Spol.MUSKO.getId());
         return i;
     }
 
     private Igrac kreirajIgraca2() {
         Igrac i = new Igrac();
-        i.setSifra(2);
+        i.setId(2);
         i.setIme("Marijan");
         i.setPrezime("Zidar");
         i.setUrlSlika("https://picsum.photos/200");
-        i.setSpol(Igrac.MUSKO);
+        i.setSpol(Spol.MUSKO.getId());
         return i;
     }
 

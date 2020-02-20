@@ -2,21 +2,21 @@ package model;
 
 public abstract class Entitet {
 
-    private int sifra;
+    private int id;
 
-    public Entitet(int sifra) {
-        this.sifra = sifra;
+    public Entitet(int id) {
+        this.id = id;
     }
 
     public Entitet() {
     }
 
-    public int getSifra() {
-        return sifra;
+    public int getId() {
+        return id;
     }
 
-    public void setSifra(int sifra) {
-        this.sifra = sifra;
+    public void setId(int id) {
+        this.id = id;
     }
 
 }
