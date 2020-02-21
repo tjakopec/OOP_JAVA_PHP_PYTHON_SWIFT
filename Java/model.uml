@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model</OriginalElement>
+  <nodes>
+    <node x="379.0" y="79.0">model.Partija</node>
+    <node x="0.0" y="158.0">model.MjesanjeDvaUnosa</node>
+    <node x="434.34999999999997" y="237.0">model.PartijaTriIgraca</node>
+    <node x="255.0" y="79.0">model.Lokacija</node>
+    <node x="0.0" y="311.0">model.Rezulat</node>
+    <node x="28.0" y="79.0">model.Mjesanje</node>
+    <node x="142.0" y="311.0">model.Spol</node>
+    <node x="434.35" y="158.0">model.PartijaDvaIgraca</node>
+    <node x="202.10000000000002" y="0.0">model.Entitet</node>
+    <node x="268.35" y="158.0">model.PartijaDvaPara</node>
+    <node x="0.0" y="237.0">model.MjesanjeTriUnosa</node>
+    <node x="152.0" y="79.0">model.Igrac</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.PartijaTriIgraca" target="model.PartijaDvaIgraca">
+      <point x="2.8421709430404007E-14" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.PartijaDvaIgraca" target="model.Partija">
+      <point x="2.8421709430404007E-14" y="-14.5" />
+      <point x="514.35" y="133.0" />
+      <point x="451.75" y="133.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="model.Partija" target="model.Entitet">
+      <point x="0.0" y="-14.5" />
+      <point x="427.5" y="49.0" />
+      <point x="286.975" y="49.0" />
+      <point x="36.375" y="14.5" />
+    </edge>
+    <edge source="model.PartijaDvaPara" target="model.Partija">
+      <point x="0.0" y="-14.5" />
+      <point x="341.35" y="133.0" />
+      <point x="403.25" y="133.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+    <edge source="model.Igrac" target="model.Entitet">
+      <point x="0.0" y="-14.5" />
+      <point x="193.5" y="59.0" />
+      <point x="238.47500000000002" y="59.0" />
+      <point x="-12.125" y="14.5" />
+    </edge>
+    <edge source="model.Lokacija" target="model.Entitet">
+      <point x="0.0" y="-14.5" />
+      <point x="307.0" y="59.0" />
+      <point x="262.725" y="59.0" />
+      <point x="12.125" y="14.5" />
+    </edge>
+    <edge source="model.MjesanjeTriUnosa" target="model.MjesanjeDvaUnosa">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.Mjesanje" target="model.Entitet">
+      <point x="0.0" y="-14.5" />
+      <point x="80.0" y="49.0" />
+      <point x="214.22500000000002" y="49.0" />
+      <point x="-36.375" y="14.5" />
+    </edge>
+    <edge source="model.MjesanjeDvaUnosa" target="model.Mjesanje">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="329.5" y="349.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
