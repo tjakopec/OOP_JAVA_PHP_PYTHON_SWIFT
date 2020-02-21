@@ -4,6 +4,7 @@
 
 namespace model;
 
+//Ovo je teški fail ali radi
 require_once 'Entitet.php';
 require_once 'Igrac.php';
 require_once 'Lokacija.php';
