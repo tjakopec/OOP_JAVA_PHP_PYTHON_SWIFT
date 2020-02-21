@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/Dokument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/nikadaneraditiovako/Dokument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/nikadaneraditiovako/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d2ucahurivanje/Dokument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/d2ucahurivanje/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/podaci.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pomocno/Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pomocno/MjesanjeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pomocno/PartijaAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/META-INF/Java.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java/model/Partija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Partija.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Spol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Spol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Partija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Partija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +23,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>vrst</find>
-      <find>vrs</find>
-      <find>stiglja&quot;: t</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -76,10 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pomocno" />
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start (2)">
+  <component name="RunManager" selected="Application.Start">
     <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="d1klasaobjekt.Start" />
       <module name="Java" />
@@ -128,10 +107,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.Start (2)" />
         <item itemvalue="Application.Start (1)" />
         <item itemvalue="Application.Start (1)" />
-        <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +125,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581584339253</updated>
-      <workItem from="1582269596833" duration="5152000" />
+      <workItem from="1582269596833" duration="5456000" />
+      <workItem from="1582287569457" duration="3310000" />
     </task>
     <servers />
   </component>
@@ -157,30 +137,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582271644321">
+    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582289364324">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877@40.23.1400.877" timestamp="1582271644321" />
+    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877@40.23.1400.877" timestamp="1582289364324" />
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582269610606">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269610606" />
-    <state width="1357" height="230" key="GridCell.Tab.0.bottom" timestamp="1582271872654">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582290297436">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1357" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
-    <state width="1357" height="230" key="GridCell.Tab.0.center" timestamp="1582271872654">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582290297436">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1357" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
-    <state width="1357" height="230" key="GridCell.Tab.0.left" timestamp="1582271872653">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582290297435">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1357" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582271872653" />
-    <state width="1357" height="230" key="GridCell.Tab.0.right" timestamp="1582271872654">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582290297435" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582290297436">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1357" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
     <state x="242" y="100" key="SettingsEditor" timestamp="1582271313869">
       <screen x="40" y="23" width="1400" height="877" />
     </state>

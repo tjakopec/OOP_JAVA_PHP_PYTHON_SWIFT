@@ -1,7 +1,13 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 import model.*;
+import pomocno.Json;
+import pomocno.PartijaAdapter;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +21,19 @@ public class Start {
     private Lokacija lokacija;
 
     public Start() {
+        //kreirajRucno();
 
+       partije = Json.fromJsonFile("podaci.json");
+
+        for (Partija partija: partije ) {
+            System.out.println(partija);
+        }
+
+    }
+
+
+
+    private void kreirajRucno(){
         partije = new ArrayList<>();
         igrac1 = kreirajIgraca1();
         igrac2 = kreirajIgraca2();
@@ -27,15 +45,7 @@ public class Start {
         kreirajPartijuTriIgraca();
         kreirajPartijuDvaPara();
 
-
-        for (Partija partija: partije ) {
-            System.out.println(partija);
-        }
-
-        Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").serializeNulls().setPrettyPrinting().create();
-
-        System.out.println(gson.toJson(partije));
-
+        Json.toJsonFile("podaci.json",partije);
     }
 
     private void kreirajPartijuDvaPara() {
