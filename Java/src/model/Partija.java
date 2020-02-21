@@ -69,13 +69,12 @@ public abstract class Partija extends Entitet {
                 return false;
             }
 
-            /* ne treba jer imam na kraju return true
             if (rezulat.getPrvi()>getDoKolikoSeIgra() || rezulat.getDrugi()>getDoKolikoSeIgra() || rezulat.getTreci()>getDoKolikoSeIgra()){
                 return true;
             }
-            */
+
         }
 
-        return true;
+        return false;
     }
 }

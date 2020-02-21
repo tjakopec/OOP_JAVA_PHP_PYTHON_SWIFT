@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classDiagram0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classDiagram1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/Dokument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/nikadaneraditiovako/Dokument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d1klasaobjekt/nikadaneraditiovako/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d2ucahurivanje/Dokument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/d2ucahurivanje/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/META-INF/Java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Partija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Partija.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Spol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Spol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Partija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Partija.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +54,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -45,6 +63,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582210405975" />
@@ -52,7 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +79,33 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Start (2)">
+    <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d1klasaobjekt.Start" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d1klasaobjekt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d2ucahurivanje.Start" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d2ucahurivanje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Start" />
       <module name="Java" />
@@ -68,8 +113,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d1klasaobjekt.nikadaneraditiovako.Start" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d1klasaobjekt.nikadaneraditiovako.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start (2)" />
+        <item itemvalue="Application.Start (1)" />
+        <item itemvalue="Application.Start (1)" />
         <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
@@ -85,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581584339253</updated>
-      <workItem from="1582269596833" duration="243000" />
+      <workItem from="1582269596833" duration="5152000" />
     </task>
     <servers />
   </component>
@@ -96,10 +157,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582271644321">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877@40.23.1400.877" timestamp="1582271644321" />
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582269610606">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269610606" />
+    <state width="1357" height="230" key="GridCell.Tab.0.bottom" timestamp="1582271872654">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1357" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
+    <state width="1357" height="230" key="GridCell.Tab.0.center" timestamp="1582271872654">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1357" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
+    <state width="1357" height="230" key="GridCell.Tab.0.left" timestamp="1582271872653">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1357" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582271872653" />
+    <state width="1357" height="230" key="GridCell.Tab.0.right" timestamp="1582271872654">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state width="1357" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582271872654" />
+    <state x="242" y="100" key="SettingsEditor" timestamp="1582271313869">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="242" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1582271313869" />
     <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1582269601835">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
