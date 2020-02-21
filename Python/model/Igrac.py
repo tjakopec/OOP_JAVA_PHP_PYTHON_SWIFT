@@ -43,3 +43,6 @@ class Igrac(Entitet):
     @spol.setter
     def spol(self, spol):
         self._spol = spol
+
+    def __str__(self):
+        return self.ime + " " + self.prezime

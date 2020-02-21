@@ -63,8 +63,8 @@ class Partija(Entitet):
 
     @property
     def igraci(self):
-        return self._mjesanja
+        return self._igraci
 
-    @mjesanja.setter
+    @igraci.setter
     def igraci(self, igraci):
         self._igraci = igraci

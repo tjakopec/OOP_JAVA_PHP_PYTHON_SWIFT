@@ -13,5 +13,6 @@ class PartijaDvaPara(Partija):
         return rezultat
 
     def __str__(self) -> str:
-        return 'Partija DVA para' + str(self.is_igra_gotova) + ': ' + str(self.get_rezultat().prvi) + \
-               ' - ' + str(self.get_rezultat().drugi)
+        return 'Partija DVA PARA, igra gotova: ' + str(self.is_igra_gotova) + ', ' + \
+               str(self.igraci[0]) + ' i ' + str(self.igraci[1]) + ': ' + str(self.get_rezultat().prvi) + \
+            ' | ' + str(self.igraci[2]) + ' i ' + str(self.igraci[3]) + ': ' + str(self.get_rezultat().drugi)
