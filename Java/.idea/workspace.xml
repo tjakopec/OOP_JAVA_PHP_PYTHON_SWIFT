@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/podaci.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pomocno/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pomocno/MjesanjeAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pomocno/PartijaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Partija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/model/Partija.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
-    </list>
+    <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581584339253</updated>
       <workItem from="1582269596833" duration="5456000" />
-      <workItem from="1582287569457" duration="3310000" />
+      <workItem from="1582287569457" duration="3316000" />
     </task>
     <servers />
   </component>

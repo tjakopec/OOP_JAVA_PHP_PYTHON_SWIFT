@@ -1,0 +1,17 @@
+[
+  {
+    "sifra": 1,
+    "brojDokumenta" : "RN 1/2020",
+    "iznos": 120.98
+  },
+  {
+    "sifra": 2,
+    "brojDokumenta" : "RN 2/2020",
+    "iznos": 234
+  },
+  {
+    "sifra": 3,
+    "brojDokumenta" : "RN 3/2020",
+    "iznos": 12
+  }
+]

@@ -1,0 +1,2 @@
+class DokumentJednostavno:
+    pass
