@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../PHP/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Entitet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Igrac.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Lokacija.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Mjesanje.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/MjesanjeDvaUnosa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/MjesanjeTriUnosa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Partija.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/PartijaDvaIgraca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/PartijaDvaPara.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/PartijaTriIgraca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Rezultat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/model/Start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PHP/podaci.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/podaci.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/podaci.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Partija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Partija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PartijaDvaIgraca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PartijaDvaIgraca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PartijaDvaPara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PartijaDvaPara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PartijaTriIgraca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PartijaTriIgraca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/.idea/PHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP/.idea/PHP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHP/Start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/model/Partija.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/model/Partija.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/model/PartijaDvaIgraca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/model/PartijaDvaIgraca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/model/PartijaDvaPara.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/model/PartijaDvaPara.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/model/PartijaTriIgraca.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/model/PartijaTriIgraca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/model/Start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/model/Start.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +145,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581584339253</updated>
       <workItem from="1582269596833" duration="5456000" />
-      <workItem from="1582287569457" duration="4504000" />
+      <workItem from="1582287569457" duration="4676000" />
+      <workItem from="1582303003609" duration="2558000" />
     </task>
     <servers />
   </component>
@@ -139,22 +165,22 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269610606" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582290297436">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582301163530">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582290297436">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582301163530" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582301163529">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582290297435">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582301163529" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582301163529">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582290297435" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582290297436">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582301163529" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582301163529">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582290297436" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582301163529" />
     <state x="242" y="100" key="SettingsEditor" timestamp="1582271313869">
       <screen x="40" y="23" width="1400" height="877" />
     </state>

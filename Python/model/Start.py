@@ -68,6 +68,22 @@ class Start:
                 elif len(p['igraci']) == 4:
                     partija = PartijaDvaPara()
 
+                partija.do_koliko_se_igra = p['doKolikoSeIgra']
+
+                unosi = Igrac()
+                unosi.sifra = p['unosi']['id']
+                unosi.ime = p['unosi']['ime']
+                unosi.prezime = p['unosi']['prezime']
+                unosi.spol = p['unosi']['spol']
+                partija.unosi = unosi
+
+                lokacija = Lokacija()
+                lokacija.sifra = p['lokacija']['id']
+                lokacija.longitude = p['lokacija']['longitude']
+                lokacija.latitude = p['lokacija']['latitude']
+                lokacija.naziv = p['lokacija']['naziv']
+                partija.lokacija = lokacija
+
                 for i in p['igraci']:
                     igrac = Igrac()
                     igrac.sifra = i['id']
@@ -94,21 +110,9 @@ class Start:
                     mjesanje.zvanje_drugi_unos = m['zvanjeDrugiUnos']
                     partija.mjesanja.append(mjesanje)
 
-                partija.do_koliko_se_igra = p['doKolikoSeIgra']
 
-                unosi = Igrac()
-                unosi.sifra = p['unosi']['id']
-                unosi.ime = p['unosi']['ime']
-                unosi.prezime = p['unosi']['prezime']
-                unosi.spol = p['unosi']['spol']
-                partija.unosi = unosi
 
-                lokacija = Lokacija()
-                lokacija.sifra = p['lokacija']['id']
-                lokacija.longitude = p['lokacija']['longitude']
-                lokacija.latitude = p['lokacija']['latitude']
-                lokacija.naziv = p['lokacija']['naziv']
-                partija.lokacija = lokacija
+
 
                 self._partije.append(partija)
 

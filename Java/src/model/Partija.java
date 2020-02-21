@@ -5,8 +5,6 @@ import java.util.List;
 
 public abstract class Partija extends Entitet {
 
-    public abstract Rezulat getRezultat();
-
     private int doKolikoSeIgra;
     private Lokacija lokacija;
     private Igrac unosi;
@@ -52,6 +50,12 @@ public abstract class Partija extends Entitet {
 
     public void setIgraci(List<Igrac> igraci) {
         this.igraci = igraci;
+    }
+
+    public Rezulat getRezultat() {
+        Rezulat rezulat = new Rezulat(getMjesanja().stream().mapToInt(x->x.getRezultat().getPrvi()).sum(),
+                getMjesanja().stream().mapToInt(x->x.getRezultat().getDrugi()).sum());
+        return rezulat;
     }
 
     public boolean isIgraGotova() {

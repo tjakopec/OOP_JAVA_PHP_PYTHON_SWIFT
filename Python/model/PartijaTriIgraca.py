@@ -7,9 +7,7 @@ class PartijaTriIgraca(Partija):
         super().__init__()
 
     def get_rezultat(self):
-        rezultat = Rezultat()
-        rezultat.prvi = sum(mjesanje.get_rezultat().prvi for mjesanje in self.mjesanja)
-        rezultat.drugi = sum(mjesanje.get_rezultat().drugi for mjesanje in self.mjesanja)
+        rezultat = super().get_rezultat();
         rezultat.treci = sum(mjesanje.get_rezultat().treci for mjesanje in self.mjesanja)
         return rezultat
 

@@ -14,9 +14,11 @@ class Partija(Entitet):
         self._mjesanja = []
         self._igraci = []
 
-    @abstractmethod
     def get_rezultat(self) -> Rezultat:
-        pass
+        rezultat = Rezultat()
+        rezultat.prvi = sum(mjesanje.get_rezultat().prvi for mjesanje in self.mjesanja)
+        rezultat.drugi = sum(mjesanje.get_rezultat().drugi for mjesanje in self.mjesanja)
+        return rezultat
 
     @property
     def is_igra_gotova(self) -> bool:

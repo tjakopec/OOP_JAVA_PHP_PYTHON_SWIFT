@@ -11,11 +11,5 @@ public class PartijaDvaPara extends Partija {
                 getIgraci().get(2) + " i " + getIgraci().get(3)  + ": " + rezulat.getDrugi();
     }
 
-    @Override
-    public Rezulat getRezultat() {
-        Rezulat rezulat = new Rezulat(getMjesanja().stream().mapToInt(x->x.getRezultat().getPrvi()).sum(),
-                getMjesanja().stream().mapToInt(x->x.getRezultat().getDrugi()).sum());
-        return rezulat;
-    }
 
 }

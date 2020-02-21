@@ -13,9 +13,8 @@ public class PartijaTriIgraca extends PartijaDvaIgraca {
 
 
     public Rezulat getRezultat() {
-        Rezulat rezulat = new Rezulat(getMjesanja().stream().mapToInt(x -> x.getRezultat().getPrvi()).sum(),
-                getMjesanja().stream().mapToInt(x -> x.getRezultat().getDrugi()).sum(),
-                getMjesanja().stream().mapToInt(x -> x.getRezultat().getTreci()).sum());
-        return rezulat;
+        Rezulat rezultat = super.getRezultat();
+                rezultat.setTreci(getMjesanja().stream().mapToInt(x -> x.getRezultat().getTreci()).sum());
+        return rezultat;
     }
 }
