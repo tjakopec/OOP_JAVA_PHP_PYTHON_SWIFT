@@ -60,20 +60,20 @@ public abstract class Partija extends Entitet {
 
     public boolean isIgraGotova() {
 
-        Rezulat rezulat = getRezultat();
+        Rezulat rezultat = getRezultat();
 
-        if(rezulat.isPocetak()){
+        if(rezultat.isPocetak()){
             return false;
         }
 
-        if(rezulat.getTreci()==0){
-            return rezulat.getPrvi()==rezulat.getDrugi() ? false : rezulat.getPrvi()>getDoKolikoSeIgra() || rezulat.getDrugi()>getDoKolikoSeIgra();
+        if(rezultat.getTreci()==0){
+            return rezultat.getPrvi()==rezultat.getDrugi() ? false : rezultat.getPrvi()>getDoKolikoSeIgra() || rezultat.getDrugi()>getDoKolikoSeIgra();
         }else{
-            if(rezulat.getPrvi()==rezulat.getDrugi() || rezulat.getPrvi()==rezulat.getTreci() || rezulat.getDrugi()==rezulat.getTreci()){
+            if(rezultat.getPrvi()==rezultat.getDrugi() || rezultat.getPrvi()==rezultat.getTreci() || rezultat.getDrugi()==rezultat.getTreci()){
                 return false;
             }
 
-            if (rezulat.getPrvi()>getDoKolikoSeIgra() || rezulat.getDrugi()>getDoKolikoSeIgra() || rezulat.getTreci()>getDoKolikoSeIgra()){
+            if (rezultat.getPrvi()>getDoKolikoSeIgra() || rezultat.getDrugi()>getDoKolikoSeIgra() || rezultat.getTreci()>getDoKolikoSeIgra()){
                 return true;
             }
 

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84268D724019D8F00571B6B /* PartijaDvaIgraca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84268D624019D8F00571B6B /* PartijaDvaIgraca.swift */; };
+		D84268D924019F6400571B6B /* PartijaDvaPara.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84268D824019F6400571B6B /* PartijaDvaPara.swift */; };
+		D84268DB24019FA100571B6B /* PartijaTriIgraca.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84268DA24019FA100571B6B /* PartijaTriIgraca.swift */; };
+		D84268DD2401A14200571B6B /* Pomocno.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84268DC2401A14200571B6B /* Pomocno.swift */; };
+		D86B6E58240192B200F879F3 /* MjesanjeDvaUnosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B6E57240192B200F879F3 /* MjesanjeDvaUnosa.swift */; };
+		D86B6E5A240193A200F879F3 /* MjesanjeTriUnosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B6E59240193A200F879F3 /* MjesanjeTriUnosa.swift */; };
+		D86B6E5C240197A000F879F3 /* Partija.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86B6E5B240197A000F879F3 /* Partija.swift */; };
+		D88A02D424014975008AD4C5 /* Entitet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02D324014975008AD4C5 /* Entitet.swift */; };
+		D88A02D6240172AF008AD4C5 /* MjesanjeProtokol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02D5240172AF008AD4C5 /* MjesanjeProtokol.swift */; };
+		D88A02D82401730F008AD4C5 /* Rezultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02D72401730F008AD4C5 /* Rezultat.swift */; };
+		D88A02DA240174AA008AD4C5 /* Igrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02D9240174AA008AD4C5 /* Igrac.swift */; };
+		D88A02DC24017763008AD4C5 /* Lokacija.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02DB24017763008AD4C5 /* Lokacija.swift */; };
+		D88A02DE24018F69008AD4C5 /* Mjesanje.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88A02DD24018F69008AD4C5 /* Mjesanje.swift */; };
 		D8F2289C23F67B6600845D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2289B23F67B6600845D0D /* AppDelegate.swift */; };
 		D8F2289E23F67B6600845D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2289D23F67B6600845D0D /* SceneDelegate.swift */; };
 		D8F228A023F67B6600845D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F2289F23F67B6600845D0D /* ContentView.swift */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84268D624019D8F00571B6B /* PartijaDvaIgraca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartijaDvaIgraca.swift; sourceTree = "<group>"; };
+		D84268D824019F6400571B6B /* PartijaDvaPara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartijaDvaPara.swift; sourceTree = "<group>"; };
+		D84268DA24019FA100571B6B /* PartijaTriIgraca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartijaTriIgraca.swift; sourceTree = "<group>"; };
+		D84268DC2401A14200571B6B /* Pomocno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomocno.swift; sourceTree = "<group>"; };
+		D86B6E57240192B200F879F3 /* MjesanjeDvaUnosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MjesanjeDvaUnosa.swift; sourceTree = "<group>"; };
+		D86B6E59240193A200F879F3 /* MjesanjeTriUnosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MjesanjeTriUnosa.swift; sourceTree = "<group>"; };
+		D86B6E5B240197A000F879F3 /* Partija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partija.swift; sourceTree = "<group>"; };
+		D88A02D324014975008AD4C5 /* Entitet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entitet.swift; sourceTree = "<group>"; };
+		D88A02D5240172AF008AD4C5 /* MjesanjeProtokol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MjesanjeProtokol.swift; sourceTree = "<group>"; };
+		D88A02D72401730F008AD4C5 /* Rezultat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rezultat.swift; sourceTree = "<group>"; };
+		D88A02D9240174AA008AD4C5 /* Igrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Igrac.swift; sourceTree = "<group>"; };
+		D88A02DB24017763008AD4C5 /* Lokacija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lokacija.swift; sourceTree = "<group>"; };
+		D88A02DD24018F69008AD4C5 /* Mjesanje.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mjesanje.swift; sourceTree = "<group>"; };
 		D8F2289823F67B6600845D0D /* Swift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F2289B23F67B6600845D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8F2289D23F67B6600845D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D88A02D224014953008AD4C5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D88A02D324014975008AD4C5 /* Entitet.swift */,
+				D88A02D5240172AF008AD4C5 /* MjesanjeProtokol.swift */,
+				D88A02D72401730F008AD4C5 /* Rezultat.swift */,
+				D88A02D9240174AA008AD4C5 /* Igrac.swift */,
+				D88A02DB24017763008AD4C5 /* Lokacija.swift */,
+				D88A02DD24018F69008AD4C5 /* Mjesanje.swift */,
+				D86B6E57240192B200F879F3 /* MjesanjeDvaUnosa.swift */,
+				D86B6E59240193A200F879F3 /* MjesanjeTriUnosa.swift */,
+				D86B6E5B240197A000F879F3 /* Partija.swift */,
+				D84268D624019D8F00571B6B /* PartijaDvaIgraca.swift */,
+				D84268D824019F6400571B6B /* PartijaDvaPara.swift */,
+				D84268DA24019FA100571B6B /* PartijaTriIgraca.swift */,
+				D84268DC2401A14200571B6B /* Pomocno.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		D8F2288F23F67B6600845D0D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +102,7 @@
 		D8F2289A23F67B6600845D0D /* Swift4 */ = {
 			isa = PBXGroup;
 			children = (
+				D88A02D224014953008AD4C5 /* model */,
 				D8F2289B23F67B6600845D0D /* AppDelegate.swift */,
 				D8F2289D23F67B6600845D0D /* SceneDelegate.swift */,
 				D8F2289F23F67B6600845D0D /* ContentView.swift */,
@@ -147,8 +194,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F2289C23F67B6600845D0D /* AppDelegate.swift in Sources */,
+				D88A02D424014975008AD4C5 /* Entitet.swift in Sources */,
+				D88A02D82401730F008AD4C5 /* Rezultat.swift in Sources */,
+				D84268DD2401A14200571B6B /* Pomocno.swift in Sources */,
+				D86B6E58240192B200F879F3 /* MjesanjeDvaUnosa.swift in Sources */,
+				D88A02DE24018F69008AD4C5 /* Mjesanje.swift in Sources */,
 				D8F2289E23F67B6600845D0D /* SceneDelegate.swift in Sources */,
+				D88A02D6240172AF008AD4C5 /* MjesanjeProtokol.swift in Sources */,
+				D84268D924019F6400571B6B /* PartijaDvaPara.swift in Sources */,
+				D86B6E5A240193A200F879F3 /* MjesanjeTriUnosa.swift in Sources */,
+				D88A02DA240174AA008AD4C5 /* Igrac.swift in Sources */,
+				D84268D724019D8F00571B6B /* PartijaDvaIgraca.swift in Sources */,
+				D84268DB24019FA100571B6B /* PartijaTriIgraca.swift in Sources */,
 				D8F228A023F67B6600845D0D /* ContentView.swift in Sources */,
+				D88A02DC24017763008AD4C5 /* Lokacija.swift in Sources */,
+				D86B6E5C240197A000F879F3 /* Partija.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
