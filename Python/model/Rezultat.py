@@ -5,7 +5,7 @@ class Rezultat:
         self._treci = 0
 
     def is_pocetak(self):
-        return self.prvi == 0 & self.drugi == 0 & self.treci == 0
+        return self._prvi == 0 and self._drugi == 0 and self._treci == 0
 
     @property
     def prvi(self):

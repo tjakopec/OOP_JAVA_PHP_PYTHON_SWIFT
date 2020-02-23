@@ -21,10 +21,10 @@ public class Start {
     private Lokacija lokacija;
 
     public Start() {
-        kreirajRucno();
-       Json.toJsonFile("podaci.json",partije);
+       // kreirajRucno();
+       //Json.toJsonFile("podaci.json",partije);
 
-       //partije = Json.fromJsonFile("podaci.json");
+       partije = Json.fromJsonFile("podaci.json");
 
         for (Partija partija: partije ) {
             System.out.println(partija);

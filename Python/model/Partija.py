@@ -26,9 +26,12 @@ class Partija(Entitet):
         if rezultat.is_pocetak():
             return False
         if rezultat.treci == 0:
-            return False if rezultat.prvi == rezultat.drugi else rezultat.prvi > self.do_koliko_se_igra | rezultat.drugi > self.do_koliko_se_igra
+            return False if rezultat.prvi == rezultat.drugi else rezultat.prvi > self.do_koliko_se_igra or \
+                                                                 rezultat.drugi > self.do_koliko_se_igra
         else:
-            return rezultat.prvi > self.do_koliko_se_igra | rezultat.drugi > self.do_koliko_se_igra | rezultat.treci > self.do_koliko_se_igra
+            return rezultat.prvi > self.do_koliko_se_igra or rezultat.drugi > self.do_koliko_se_igra or \
+                   rezultat.treci > self.do_koliko_se_igra
+
         return False
 
     @property

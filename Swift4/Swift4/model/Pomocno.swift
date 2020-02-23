@@ -27,35 +27,19 @@ class Pomocno{
         
         var m = MjesanjeDvaUnosa()
       
-        m.setBodovaPrviUnos(bodovaPrviUnos: 23)
-        m.setBodovaDrugiUnos(bodovaDrugiUnos: 89)
+        m.setBodovaPrviUnos(bodovaPrviUnos: 10)
+        m.setBodovaDrugiUnos(bodovaDrugiUnos: 152)
         m.setZvanjeDrugiUnos(zvanjeDrugiUnos: 20)
         
         mjesanja.insert(m, at: mjesanja.endIndex)
 
         m =  MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(bodovaPrviUnos: 18);
-        m.setBodovaDrugiUnos(bodovaDrugiUnos: 51);
+        m.setBodovaPrviUnos(bodovaPrviUnos: 152)
+        m.setBodovaDrugiUnos(bodovaDrugiUnos: 10)
+        m.setZvanjeDrugiUnos(zvanjeDrugiUnos: 20)
 
          mjesanja.insert(m, at: mjesanja.endIndex)
 
-
-
-        m =  MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(bodovaPrviUnos: 120);
-        m.setStiglja(stiglja: true);
-
-         mjesanja.insert(m, at: mjesanja.endIndex)
-
-
-        for _ in 1...8 {
-            m =  MjesanjeDvaUnosa();
-            m.setBodovaPrviUnos(bodovaPrviUnos: 45);
-            m.setBodovaDrugiUnos(bodovaDrugiUnos: 23);
-
-             mjesanja.insert(m, at: mjesanja.endIndex)
-
-        }
         
         let partija = PartijaDvaIgraca(doKolikoSeIgra: 501, lokacija: lokacija, unosi: igrac1, mjesanja: mjesanja, igraci: igraci)
         
@@ -71,43 +55,23 @@ class Pomocno{
         //var m = MjesanjeTriUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 23, zvanjePrviUnos: 0, bodovaDrugiUnos: 80, zvanjeDrugiUnos: 20, bodovaTreciUnos: 59, zvanjeTreciUnos: 0)
         
         
-        var m3 = MjesanjeTriUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 23, zvanjePrviUnos: 0, bodovaDrugiUnos: 89, zvanjeDrugiUnos: 20, bodovaTreciUnos: 50, zvanjeTreciUnos: 0)
+        var m3 = MjesanjeTriUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 10, zvanjePrviUnos: 0, bodovaDrugiUnos: 76, zvanjeDrugiUnos: 20, bodovaTreciUnos: 76, zvanjeTreciUnos: 0)
        
         
         mjesanja.insert(m3, at: mjesanja.endIndex)
 
-        m3 =  MjesanjeTriUnosa();
-        m3.setBodovaPrviUnos(bodovaPrviUnos: 18)
-        m3.setBodovaDrugiUnos(bodovaDrugiUnos: 51)
-        m3.setBodovaTreciUnos(bodovaTreciUnos: 162 - m3.getBodovaPrviUnos() - m3.getBodovaDrugiUnos())
         
-        mjesanja.insert(m3, at: mjesanja.endIndex)
-        
-        m3 =  MjesanjeTriUnosa();
-        m3.setBodovaPrviUnos(bodovaPrviUnos: 120)
-        m3.setBodovaDrugiUnos(bodovaDrugiUnos: 0)
-        m3.setBodovaTreciUnos(bodovaTreciUnos: 42)
-        m3.setStiglja(stiglja: true)
-        
-        mjesanja.insert(m3, at: mjesanja.endIndex)
-        
-        
-        for _ in 1...3 {
+        for _ in 1...5 {
             m3 =  MjesanjeTriUnosa();
-             m3.setBodovaPrviUnos(bodovaPrviUnos: 45)
-                   m3.setBodovaDrugiUnos(bodovaDrugiUnos: 23)
-                   m3.setBodovaTreciUnos(bodovaTreciUnos: 162 - m3.getBodovaPrviUnos() - m3.getBodovaDrugiUnos())
+            m3.setBodovaPrviUnos(bodovaPrviUnos: 10)
+             m3.setBodovaDrugiUnos(bodovaDrugiUnos: 76)
+             m3.setBodovaTreciUnos(bodovaTreciUnos: 76)
+             m3.setZvanjeDrugiUnos(zvanjeDrugiUnos: 20)
 
              mjesanja.insert(m3, at: mjesanja.endIndex)
 
         }
-    
-        m3 =  MjesanjeTriUnosa();
-        m3.setBodovaPrviUnos(bodovaPrviUnos: 120)
-        m3.setStiglja(stiglja: true)
-        m3.setBodovaTreciUnos(bodovaTreciUnos: 162 - m3.getBodovaPrviUnos() - m3.getBodovaDrugiUnos())
 
-         mjesanja.insert(m3, at: mjesanja.endIndex)
         
         igraci = Array<Igrac>()
                igraci.insert(igrac1, at: igraci.endIndex)
@@ -124,9 +88,9 @@ class Pomocno{
         //TREĆA PARTIJA
          
           mjesanja = Array<MjesanjeProtokol>()
-          mjesanja.insert(MjesanjeDvaUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 23, zvanjePrviUnos: 0, bodovaDrugiUnos: 139, zvanjeDrugiUnos: 20), at: mjesanja.endIndex)
-          mjesanja.insert(MjesanjeDvaUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 18, zvanjePrviUnos: 0, bodovaDrugiUnos: 144, zvanjeDrugiUnos: 0), at: mjesanja.endIndex)
-          mjesanja.insert(MjesanjeDvaUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 120, zvanjePrviUnos: 0, bodovaDrugiUnos: 42, zvanjeDrugiUnos: 0), at: mjesanja.endIndex)
+          mjesanja.insert(MjesanjeDvaUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 10, zvanjePrviUnos: 0, bodovaDrugiUnos: 152, zvanjeDrugiUnos: 20), at: mjesanja.endIndex)
+          mjesanja.insert(MjesanjeDvaUnosa(sifra: 1, stiglja: false, belot: false, datumUnosa: Date.init(), bodovaPrviUnos: 152, zvanjePrviUnos: 0, bodovaDrugiUnos: 10, zvanjeDrugiUnos: 20), at: mjesanja.endIndex)
+         
          
          igraci = Array<Igrac>()
          igraci.insert(igrac1, at: igraci.endIndex)

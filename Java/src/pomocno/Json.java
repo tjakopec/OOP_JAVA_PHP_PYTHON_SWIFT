@@ -25,7 +25,7 @@ public class Json {
             Gson gson = gsonBilder.create();
             //System.out.println(podaci.size());
             System.out.println(gson.toJson(podaci));
-            gson.toJson(podaci, new FileWriter(filePath));
+            gson.toJson(podaci, new FileWriter(filePath)); // NE ZAPISUJE MI U FILE
         } catch (IOException e) {
             e.printStackTrace();
         }

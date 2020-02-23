@@ -14,8 +14,8 @@
             filePath = "Swift4/model/Pomocno.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "ucitajPodatke()"
             landmarkType = "7">
          </BreakpointContent>

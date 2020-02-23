@@ -5,17 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/podaci.json" beforeDir="false" afterPath="$PROJECT_DIR$/podaci.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/ContentView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/Igrac.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/Igrac.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/MjesanjeDvaUnosa.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/MjesanjeDvaUnosa.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/MjesanjeTriUnosa.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/MjesanjeTriUnosa.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/Partija.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/Partija.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaDvaIgraca.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaDvaIgraca.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaDvaPara.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaDvaPara.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaTriIgraca.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/PartijaTriIgraca.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/Pomocno.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/Pomocno.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4/model/Rezultat.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4/model/Rezultat.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pomocno/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pomocno/Json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +125,7 @@
       <workItem from="1582287569457" duration="4676000" />
       <workItem from="1582303003609" duration="2718000" />
       <workItem from="1582381925561" duration="3988000" />
-      <workItem from="1582452909688" duration="3520000" />
+      <workItem from="1582452909688" duration="4151000" />
     </task>
     <servers />
   </component>
@@ -154,22 +144,22 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269610606" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582477890801">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582478874325">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582477890801" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582477890800">
+    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582478874325" />
+    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582478874315">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582477890800" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582477890800">
+    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582478874315" />
+    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582478874314">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582477890800" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582477890800">
+    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582478874314" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582478874324">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582477890800" />
+    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582478874324" />
     <state x="242" y="100" key="SettingsEditor" timestamp="1582271313869">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
