@@ -14,10 +14,10 @@ class MjesanjeTriUnosa: MjesanjeDvaUnosa{
     
    
     
-    init(sifra: Int = 0, stiglja: Bool = false, belot: Bool = false, datumUnosa: Date = Date.init(), bodovaPrviUnos: Int = 0, bodovaDrugiUnos: Int = 0, zvanjePrviUnos: Int = 0, zvanjeDrugiUnos: Int = 0, bodovaTreciUnos: Int = 0, zvanjeTreciUnos: Int = 0) {
+    init(sifra: Int = 0, stiglja: Bool = false, belot: Bool = false, datumUnosa: Date = Date.init(), bodovaPrviUnos: Int = 0, zvanjePrviUnos: Int = 0, bodovaDrugiUnos: Int = 0, zvanjeDrugiUnos: Int = 0, bodovaTreciUnos: Int = 0, zvanjeTreciUnos: Int = 0) {
         self.bodovaTreciUnos=bodovaTreciUnos
         self.zvanjeTreciUnos=zvanjeTreciUnos
-        super.init(sifra: sifra, stiglja: stiglja, belot: belot, datumUnosa: datumUnosa,bodovaPrviUnos: bodovaPrviUnos, bodovaDrugiUnos: bodovaDrugiUnos, zvanjePrviUnos: zvanjePrviUnos, zvanjeDrugiUnos: zvanjeDrugiUnos)
+        super.init(sifra: sifra, stiglja: stiglja, belot: belot, datumUnosa: datumUnosa,bodovaPrviUnos: bodovaPrviUnos, zvanjePrviUnos: zvanjePrviUnos, bodovaDrugiUnos: bodovaDrugiUnos, zvanjeDrugiUnos: zvanjeDrugiUnos)
     }
     
     public func getBodovaTreciUnos()->Int{

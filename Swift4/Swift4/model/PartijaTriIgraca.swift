@@ -17,7 +17,7 @@ class PartijaTriIgraca: Partija{
     
     
     
-    public var description: String {
+    public override var description: String {
         let rezultat = getRezultat();
         return "Partija TRI IGRAČA, igra gotova: " + String(super.isIgraGotova()) + ", " +  super.getIgraci()[0].description + ": " +
                 String(rezultat.getPrvi()) +

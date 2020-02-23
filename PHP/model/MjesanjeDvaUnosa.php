@@ -59,7 +59,7 @@ class MjesanjeDvaUnosa extends Mjesanje
     {
         $rezultat = new Rezultat();
         $rezultat->setPrvi($this->getBodovaPrviUnos() + $this->getZvanjePrviUnos());
-        $rezultat->setDrugi($this->getZvanjeDrugiUnos() + $this->getZvanjeDrugiUnos());
+        $rezultat->setDrugi($this->getBodovaDrugiUnos() + $this->getZvanjeDrugiUnos());
         return $rezultat;
     }
 

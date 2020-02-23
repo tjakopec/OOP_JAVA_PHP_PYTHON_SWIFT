@@ -23,35 +23,7 @@ class Partija{
         self.igraci=igraci
     }
     
-    public func getRezultat()->Rezultat{
-        let rezultat = Rezultat()
-        rezultat.setPrvi(prvi: getMjesanja().reduce(0) { $0 + $1.getRezultat().getPrvi() })
-        rezultat.setDrugi(drugi: getMjesanja().reduce(0) { $0 + $1.getRezultat().getDrugi() })
-        return rezultat
-    }
     
-    public func isIgraGotova()->Bool{
-        
-        let rezultat = getRezultat()
-        
-        if (rezultat.isPocetak()){
-            return false
-        }
-        
-        if (rezultat.getTreci() == 0){
-            return rezultat.getPrvi() == rezultat.getDrugi() ? false : rezultat.getPrvi() > rezultat.getDrugi() || rezultat.getDrugi() > rezultat.getPrvi()
-        }else{
-            if(rezultat.getPrvi() == rezultat.getDrugi() || rezultat.getPrvi() == rezultat.getTreci() || rezultat.getDrugi() == rezultat.getTreci()){
-                return false;
-            }
-
-            if (rezultat.getPrvi() > getDoKolikoSeIgra() || rezultat.getDrugi() > getDoKolikoSeIgra() || rezultat.getTreci() > getDoKolikoSeIgra()){
-                return true;
-            }
-        }
-        
-        return false
-    }
     
     public func getDoKolikoSeIgra()->Int{
         return self.doKolikoSeIgra
@@ -91,6 +63,40 @@ class Partija{
     
     public func setIgraci(igraci: Array<Igrac>){
         self.igraci = igraci
+    }
+    
+    public func getRezultat()->Rezultat{
+        let rezultat = Rezultat()
+        rezultat.setPrvi(prvi: getMjesanja().reduce(0) { $0 + $1.getRezultat().getPrvi() })
+        rezultat.setDrugi(drugi: getMjesanja().reduce(0) { $0 + $1.getRezultat().getDrugi() })
+        return rezultat
+    }
+    
+    public func isIgraGotova()->Bool{
+        
+        let rezultat = getRezultat()
+        
+        if (rezultat.isPocetak()){
+            return false
+        }
+        
+        if (rezultat.getTreci() == 0){
+            return rezultat.getPrvi() == rezultat.getDrugi() ? false : rezultat.getPrvi() > getDoKolikoSeIgra() || rezultat.getDrugi() > getDoKolikoSeIgra()
+        }else{
+            if(rezultat.getPrvi() == rezultat.getDrugi() || rezultat.getPrvi() == rezultat.getTreci() || rezultat.getDrugi() == rezultat.getTreci()){
+                return false;
+            }
+
+            if (rezultat.getPrvi() > getDoKolikoSeIgra() || rezultat.getDrugi() > getDoKolikoSeIgra() || rezultat.getTreci() > getDoKolikoSeIgra()){
+                return true;
+            }
+        }
+        
+        return false
+    }
+    
+    public var description: String {
+        return "Ovo se ne bi smjelo koristiti, napravite Override u podklasi"
     }
     
 }

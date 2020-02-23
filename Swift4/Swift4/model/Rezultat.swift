@@ -41,7 +41,7 @@ class Rezultat{
     }
     
     public func setTreci(treci: Int){
-        self.drugi = treci
+        self.treci = treci
     }
     
     public func isPocetak()->Bool{

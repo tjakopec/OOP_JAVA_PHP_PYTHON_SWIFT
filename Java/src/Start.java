@@ -21,9 +21,10 @@ public class Start {
     private Lokacija lokacija;
 
     public Start() {
-        //kreirajRucno();
+        kreirajRucno();
+       Json.toJsonFile("podaci.json",partije);
 
-       partije = Json.fromJsonFile("podaci.json");
+       //partije = Json.fromJsonFile("podaci.json");
 
         for (Partija partija: partije ) {
             System.out.println(partija);
@@ -45,7 +46,7 @@ public class Start {
         kreirajPartijuTriIgraca();
         kreirajPartijuDvaPara();
 
-        Json.toJsonFile("podaci.json",partije);
+
     }
 
     private void kreirajPartijuDvaPara() {
@@ -69,27 +70,21 @@ public class Start {
         List<Mjesanje> mjesanja = new ArrayList<>();
 
         MjesanjeDvaUnosa m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(23);
-        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
+        m.setBodovaPrviUnos(10);
+        m.setBodovaDrugiUnos(152);
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(20);
 
         mjesanja.add(m);
 
-        m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(18);
-        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
-        m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
 
-        mjesanja.add(m);
 
 
         m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(120);
-        m.setBodovaDrugiUnos(162 -m.getBodovaPrviUnos());
+        m.setBodovaPrviUnos(152);
+        m.setBodovaDrugiUnos(10);
         m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
+        m.setZvanjeDrugiUnos(20);
         m.setStiglja(true);
 
         mjesanja.add(m);
@@ -119,41 +114,23 @@ public class Start {
         List<Mjesanje> mjesanja = new ArrayList<>();
 
         MjesanjeTriUnosa m = new MjesanjeTriUnosa();
-        m.setBodovaPrviUnos(23);
-        m.setBodovaDrugiUnos(89);
+        m.setBodovaPrviUnos(10);
+        m.setBodovaDrugiUnos(76);
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(20);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
+        m.setBodovaTreciUnos(76);
         mjesanja.add(m);
 
-        m = new MjesanjeTriUnosa();
-        m.setBodovaPrviUnos(18);
-        m.setBodovaDrugiUnos(51);
-        m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
-        mjesanja.add(m);
-
-
-        m = new MjesanjeTriUnosa();
-        m.setBodovaPrviUnos(120);
-        m.setBodovaDrugiUnos(0);
-        m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
-        m.setStiglja(true);
-        m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
-        mjesanja.add(m);
-
-        for (int i = 0; i < 3; i++) {
+        for(int i=0;i<5;i++) {
             m = new MjesanjeTriUnosa();
-            m.setBodovaPrviUnos(45);
-            m.setBodovaDrugiUnos(23);
+            m.setBodovaPrviUnos(10);
+            m.setBodovaDrugiUnos(76);
             m.setZvanjePrviUnos(0);
-            m.setZvanjeDrugiUnos(0);
-            m.setStiglja(true);
-            m.setBodovaTreciUnos(162 + m.getZvanjePrviUnos() + m.getZvanjeDrugiUnos() - m.getRezultat().getPrvi() - m.getRezultat().getDrugi());
+            m.setZvanjeDrugiUnos(20);
+            m.setBodovaTreciUnos(76);
             mjesanja.add(m);
         }
+
 
 
         return mjesanja;
@@ -177,42 +154,21 @@ public class Start {
         List<Mjesanje> mjesanja = new ArrayList<>();
 
         MjesanjeDvaUnosa m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(23);
-        m.setBodovaDrugiUnos(89);
+        m.setBodovaPrviUnos(10);
+        m.setBodovaDrugiUnos(152);
         m.setZvanjePrviUnos(0);
         m.setZvanjeDrugiUnos(20);
 
         mjesanja.add(m);
 
         m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(18);
-        m.setBodovaDrugiUnos(51);
+        m.setBodovaPrviUnos(152);
+        m.setBodovaDrugiUnos(10);
         m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
-
-        mjesanja.add(m);
-
-
-        m = new MjesanjeDvaUnosa();
-        m.setBodovaPrviUnos(120);
-        m.setBodovaDrugiUnos(0);
-        m.setZvanjePrviUnos(0);
-        m.setZvanjeDrugiUnos(0);
+        m.setZvanjeDrugiUnos(20);
         m.setStiglja(true);
 
         mjesanja.add(m);
-
-        for (int i = 0; i < 8; i++) {
-            m = new MjesanjeDvaUnosa();
-            m.setBodovaPrviUnos(45);
-            m.setBodovaDrugiUnos(23);
-            m.setZvanjePrviUnos(0);
-            m.setZvanjeDrugiUnos(0);
-            m.setStiglja(true);
-
-            mjesanja.add(m);
-        }
-
 
         return mjesanja;
     }

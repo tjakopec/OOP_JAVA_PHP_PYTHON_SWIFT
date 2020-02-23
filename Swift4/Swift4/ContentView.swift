@@ -16,10 +16,13 @@ struct ContentView: View {
                Button(action: {
                    self.showDetails.toggle()
                 
-                let partije = Pomocno.ucitajPodatke()
-                print(partije.count)
+                let partije: Array<Partija> = Pomocno.ucitajPodatke()
+                for partija in partije{
+                    print(partija.description)
+                }
                 
-                
+               
+               
                 
                }) {
                    Text("Kreni")

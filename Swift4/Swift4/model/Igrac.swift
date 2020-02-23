@@ -58,4 +58,5 @@ class Igrac: Entitet{
         return self.ime + " " + self.prezime
     }
     
+    
 }

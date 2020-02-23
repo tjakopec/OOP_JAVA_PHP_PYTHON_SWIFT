@@ -9,7 +9,7 @@
 import Foundation
 class PartijaDvaPara: Partija{
     
-    public var description: String {
+    public override var description: String {
         let rezultat = getRezultat();
         return "Partija DVA PARA, igra gotova: " + String(super.isIgraGotova()) + ", " +  super.getIgraci()[0].description + " i " + super.getIgraci()[1].description + ": " +
                 String(rezultat.getPrvi()) +
