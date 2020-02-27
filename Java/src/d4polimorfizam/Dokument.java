@@ -1,10 +1,14 @@
-package d2ucahurivanje;
+package d4polimorfizam;
 
-public class Dokument {
+import d2ucahurivanje.Osoba;
+
+public abstract class Dokument extends Object{
     private int sifra;
     private String brojDokumenta;
     private double iznos;
     private Osoba izradio;
+
+    public abstract void obradiDokument();
 
     public Dokument() {
     }
@@ -48,10 +52,13 @@ public class Dokument {
         this.izradio = izradio;
     }
 
-    public String opisiMe(){
-        return this.sifra + " - " + brojDokumenta + " - " + getIznos();
+    @Override
+    public String toString() {
+        return "Dokument{" +
+                "sifra=" + sifra +
+                ", brojDokumenta='" + brojDokumenta + '\'' +
+                ", iznos=" + iznos +
+                '}';
     }
-
-
-
+    
 }

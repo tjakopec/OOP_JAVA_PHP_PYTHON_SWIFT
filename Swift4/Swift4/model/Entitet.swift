@@ -11,6 +11,8 @@ class Entitet
 {
     private var sifra: Int
     
+  
+    
     init(sifra: Int = 0) {
         self.sifra = sifra
     }

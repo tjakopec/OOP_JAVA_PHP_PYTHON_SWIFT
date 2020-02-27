@@ -12,6 +12,7 @@ class MjesanjeTriUnosa: MjesanjeDvaUnosa{
     private var bodovaTreciUnos: Int
     private var zvanjeTreciUnos: Int
     
+    
    
     
     init(sifra: Int = 0, stiglja: Bool = false, belot: Bool = false, datumUnosa: Date = Date.init(), bodovaPrviUnos: Int = 0, zvanjePrviUnos: Int = 0, bodovaDrugiUnos: Int = 0, zvanjeDrugiUnos: Int = 0, bodovaTreciUnos: Int = 0, zvanjeTreciUnos: Int = 0) {

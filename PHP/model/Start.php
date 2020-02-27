@@ -26,7 +26,7 @@ class Start
         foreach ($this->getPartije() as $partija) {
             echo  $partija  . "\n";
         }
-        print_r($this->getPartije());
+        //print_r($this->getPartije());
     }
 
     private function getPartije(): array

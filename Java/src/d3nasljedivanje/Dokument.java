@@ -1,6 +1,8 @@
-package d2ucahurivanje;
+package d3nasljedivanje;
 
-public class Dokument {
+import d2ucahurivanje.Osoba;
+
+public class Dokument extends Object{
     private int sifra;
     private String brojDokumenta;
     private double iznos;
@@ -40,7 +42,7 @@ public class Dokument {
         this.iznos = iznos;
     }
 
-    public Osoba getIzradio() {
+    public d2ucahurivanje.Osoba getIzradio() {
         return izradio;
     }
 
@@ -48,10 +50,13 @@ public class Dokument {
         this.izradio = izradio;
     }
 
-    public String opisiMe(){
-        return this.sifra + " - " + brojDokumenta + " - " + getIznos();
+    @Override
+    public String toString() {
+        return "Dokument{" +
+                "sifra=" + sifra +
+                ", brojDokumenta='" + brojDokumenta + '\'' +
+                ", iznos=" + iznos +
+                '}';
     }
-
-
-
+    
 }

@@ -1,4 +1,4 @@
-package d1klasaobjekt.nikadaneraditiovako;
+package d2ucahurivanje.nikadaneraditiovako;
 
 public class Start {
 
