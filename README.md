@@ -14,6 +14,7 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
 </p>
 
 ## Zašto Klasa/Objekt?
+* Klase omogućuju opisivanje realnog sustava kreirajući podatkovni za koji radimo aplikaciju u čovjeku razumljivom načinu.
 
 # Učahurivanje
 
@@ -31,6 +32,9 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
 </p>
 
 ## Zašto Učahurivanje
+* <b>Fleksibilnost</b>: Fleksibilnije je i lakše mijenjati učahureni kôd s novim zahtjevima. 
+* <b>Ponovna upotreba</b>: Učahureni kôd može se ponovno upotrijebiti u cijeloj aplikaciji ili u više aplikacija.
+* <b>Održavanje</b>: Djelovi aplikacije su učahireni u zasebne jedinice, lako je promijeniti ili ažurirati dio aplikacije bez utjecaja na druge dijelove, što smanjuje vrijeme održavanja.
 
 # Nasljeđivanje
 
@@ -86,6 +90,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Encapsulation In Java,Real Time Example,Diagram | ProtechBeach]
 * [Using Accessors and Mutators in Java]
 * [Java Encapsulation Example]
+* [What is Encapsulation in Java - the WHAT, WHY and HOW]
 * [Inheritance in Java – OOP Concept]
 * [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
 * [Class Object]
@@ -105,6 +110,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Encapsulation In Java,Real Time Example,Diagram | ProtechBeach]: <https://www.protechbeach.com/java/encapsulation-in-java-with-real-time-example-with-diagram/>
    [Using Accessors and Mutators in Java]: <https://www.thoughtco.com/accessors-and-mutators-2034335>
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
+   [What is Encapsulation in Java - the WHAT, WHY and HOW]<https://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
