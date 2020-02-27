@@ -1,0 +1,16 @@
+{
+  "name": "jakopec-php/oop-belablok",
+  "description": "Implementacija OOP principa u PHP-u.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Tomislav Jakopec",
+      "email": "tjakopec@ffos.hr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jakopec\\": "src/Jakopec"
+    }
+  }
+}

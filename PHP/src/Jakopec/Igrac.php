@@ -1,7 +1,7 @@
 <?php
 
 
-namespace model;
+namespace Jakopec;
 
 
 class Igrac extends Entitet

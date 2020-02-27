@@ -1,7 +1,7 @@
 <?php
 
 
-namespace model;
+namespace Jakopec;
 
 
 use DateTime as DateTime;

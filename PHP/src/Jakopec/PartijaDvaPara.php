@@ -1,7 +1,7 @@
 <?php
 
 
-namespace model;
+namespace Jakopec;
 
 
 class PartijaDvaPara extends Partija

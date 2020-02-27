@@ -1,7 +1,7 @@
 <?php
 
 
-namespace model;
+namespace Jakopec;
 
 
 abstract class Entitet

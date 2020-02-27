@@ -1,25 +1,20 @@
 <?php
 
+use Jakopec\Igrac;
+use Jakopec\Lokacija;
+use Jakopec\MjesanjeDvaUnosa;
+use Jakopec\MjesanjeTriUnosa;
+use Jakopec\PartijaDvaIgraca;
+use Jakopec\PartijaDvaPara;
+use Jakopec\PartijaTriIgraca;
 
-
-namespace model;
-
-//Ovo je teški fail ali radi
-require_once 'Entitet.php';
-require_once 'Igrac.php';
-require_once 'Lokacija.php';
-require_once 'Rezultat.php';
-require_once 'Mjesanje.php';
-require_once 'MjesanjeDvaUnosa.php';
-require_once 'MjesanjeTriUnosa.php';
-require_once 'Partija.php';
-require_once 'PartijaDvaIgraca.php';
-require_once 'PartijaTriIgraca.php';
-require_once 'PartijaDvaPara.php';
 
 
 class Start
 {
+    /**
+     * Start constructor.
+     */
     public function __construct()
     {
         // $e = new Entitet(); //Cannot instantiate abstract class 'Entitet'
@@ -32,7 +27,7 @@ class Start
     private function getPartije(): array
     {
         $partije = [];
-        $podaci = json_decode(file_get_contents("../podaci.json"));
+        $podaci = json_decode(file_get_contents("podaci.json"));
         foreach ($podaci as $p) {
             $partija = new PartijaDvaIgraca();
             switch (count($p->igraci)) {
@@ -108,4 +103,3 @@ class Start
 
 }
 
-new Start();

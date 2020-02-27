@@ -1,4 +1,4 @@
-#  Principi objektno orijentiranog programiranja (OOP) s implementacijom u programskim jezicima Java, PHP i Python Skraćeno: OOP Java, PHP i Python
+#  OOP Java, PHP, Python i Swift
 
 Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 <br />
