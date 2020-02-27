@@ -89,7 +89,7 @@ Samo klase
 <br />
 <img src="https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON/blob/master/Java/classDiagram0.png?raw=true">
 <br />
-Klase s svojstvima i metodama
+Klase s svojstvima
 <br />
 <img src="https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON/blob/master/Java/classDiagram1.png?raw=true">
 
