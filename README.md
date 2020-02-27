@@ -4,7 +4,7 @@ Principi objektno orijentiranog programiranja (OOP) s implementacijom u programs
 
 # Klasa/Objekt
 
-<p style="text-align: center; font-size: 3rem">
+<p style="width: 100%; text-align: center; font-size: 3rem">
   Klasa je opisnik objekta<br>
   Objekt je pojavnost klase<br />
   <img src="http://1.bp.blogspot.com/-kLY02rb59-4/U6YZP2IVRTI/AAAAAAAAASI/6imnFTmgioE/s1600/dog.gif">
