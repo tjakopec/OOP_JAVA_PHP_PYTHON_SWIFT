@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d1klasaobjekt/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d1klasaobjekt/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d2ucahurivanje/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d2ucahurivanje/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Osoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d2ucahurivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d2ucahurivanje/nikadaneraditiovako/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/nikadaneraditiovako/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d2ucahurivanje/nikadaneraditiovako/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/nikadaneraditiovako/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d3nasljedivanje/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d3nasljedivanje/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Osoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d3nasljedivanje/Racun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Racun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d3nasljedivanje/RadniNalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/RadniNalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d3nasljedivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d4polimorfizam/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d4polimorfizam/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Osoba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d4polimorfizam/Racun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Racun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d4polimorfizam/RadniNalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/RadniNalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d4polimorfizam/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Entitet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Entitet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Igrac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Igrac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Lokacija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Lokacija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Mjesanje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Mjesanje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MjesanjeDvaUnosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/MjesanjeDvaUnosa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/MjesanjeTriUnosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/MjesanjeTriUnosa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Partija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Partija.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PartijaDvaIgraca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/PartijaDvaIgraca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PartijaDvaPara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/PartijaDvaPara.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/PartijaTriIgraca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/PartijaTriIgraca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Rezulat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Rezulat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Spol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/Spol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pomocno/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pomocno/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pomocno/MjesanjeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pomocno/MjesanjeAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pomocno/PartijaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pomocno/PartijaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +164,7 @@
       <workItem from="1582452909688" duration="4151000" />
       <workItem from="1582478995136" duration="338000" />
       <workItem from="1582712054759" duration="1920000" />
-      <workItem from="1582789890925" duration="2050000" />
+      <workItem from="1582789890925" duration="2443000" />
     </task>
     <servers />
   </component>

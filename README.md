@@ -1,6 +1,6 @@
 #  Principi objektno orijentiranog programiranja (OOP) s implementacijom u programskim jezicima Java, PHP i Python Skraćeno: OOP Java, PHP i Python
 
-Predavanje održano u četvrtak 27.2.2020. 18:00 u Caffe Bar Peppermint.
+Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 
 
 # Klasa/Objekt
@@ -14,7 +14,7 @@ Predavanje održano u četvrtak 27.2.2020. 18:00 u Caffe Bar Peppermint.
 # Učahurivanje
 
 <p align="center">
-  <b>Mehanizam kojim klasa sktiva svoja svojstva (čini ih privatnima) te omogućuje pristup svojstvima putem javnih metoda</b><br /><br />
+  <b>Princip kojim klasa skriva svoja svojstva (čini ih privatnima) te omogućuje pristup svojstvima putem javnih metoda</b><br /><br />
   eng. Encapsulation zato što se klasa promatra kao kapsula.<br />
   <img src="https://www.protechbeach.com/wp-content/uploads/2019/03/image-6.png"> <br />
   </p>
@@ -23,6 +23,21 @@ Predavanje održano u četvrtak 27.2.2020. 18:00 u Caffe Bar Peppermint.
   <p align="center">
   <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-encapsulation.png">
 </p>
+
+# Nasljeđivanje
+
+<p align="center">
+  <b>Princip kojim novoizgrađena klasa izvlači značajke (metode i svojstva) iz već postojeće klase. Koristeći nasljeđivanje podaci postaju dostupni hijerarhijskim redoslijedom.</b><br /><br />
+
+  <img src="https://cdn.techbeamers.com/wp-content/uploads/2019/04/Inheritance-tree.png"> <br />
+  <img src="https://cdn.techbeamers.com/wp-content/uploads/2019/04/Java-Inheritance.png"> <br />
+  </p>
+
+  Klase u java programskom jeziku (htjele to ili ne) uvijek nasljeđuju java.lang.Object koji ima sljedeće metode
+  <ul>
+  <li>equals(Object obj)</li>
+  </ul> 
+  <br />
 
 
 # Predavač
@@ -35,7 +50,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Encapsulation In Java,Real Time Example,Diagram | ProtechBeach]
 * [Using Accessors and Mutators in Java]
 * [Java Encapsulation Example]
-* []
+* [Inheritance in Java – OOP Concept]
 * []
 
 
@@ -48,7 +63,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Encapsulation In Java,Real Time Example,Diagram | ProtechBeach]: <https://www.protechbeach.com/java/encapsulation-in-java-with-real-time-example-with-diagram/>
    [Using Accessors and Mutators in Java]: <https://www.thoughtco.com/accessors-and-mutators-2034335>
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
-   []: <>
+   [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    []: <>
 
    
