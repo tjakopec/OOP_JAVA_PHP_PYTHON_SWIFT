@@ -13,8 +13,8 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
   <img src="http://1.bp.blogspot.com/-kLY02rb59-4/U6YZP2IVRTI/AAAAAAAAASI/6imnFTmgioE/s1600/dog.gif">
 </p>
 
-## Zašto Klasa/Objekt?
-* Klase omogućuju opisivanje realnog sustava kreirajući podatkovni za koji radimo aplikaciju u čovjeku razumljivom načinu.
+## Zašto klasa/objekt?
+* Klase omogućuju opisivanje realnog sustava kreirajući podatkovni model za koji radimo aplikaciju u čovjeku razumljivom načinu.
 
 # Učahurivanje
 
@@ -31,7 +31,7 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
   <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-encapsulation.png">
 </p>
 
-## Zašto Učahurivanje
+## Zašto učahurivanje
 * <b>Fleksibilnost</b>: Fleksibilnije je i lakše mijenjati učahureni kôd s novim zahtjevima. 
 * <b>Ponovna upotreba</b>: Učahureni kôd može se ponovno upotrijebiti u cijeloj aplikaciji ili u više aplikacija.
 * <b>Održavanje</b>: Djelovi aplikacije su učahireni u zasebne jedinice, lako je promijeniti ili ažurirati dio aplikacije bez utjecaja na druge dijelove, što smanjuje vrijeme održavanja.
@@ -61,7 +61,10 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
   </ul> 
   <br />
 
-## Zašto Nasljeđivanje
+## Zašto nasljeđivanje
+* Omogućuje hijerarhijsku organizaciju podataka.
+* Smanjuje količinu napisanog kôda.
+* Zajednička svojstva različitih klasa možemo poopćiti u nadklasi.
 
 # Višeobličje (polimorfizam)
 
@@ -74,6 +77,8 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
   Realizira se na način da se u nadklasi definira naziv ponašanja a u podklasama se konkretno ponašenje i implementira.
 
 ## Zašto Višeobličje
+* Dobijemo pregledniji kôd
+* "stavi pravu stvar na pravo mjesto" 
 
 # Domensko znanje
 
@@ -102,7 +107,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 
 
 
-** Sav korišten kod, kako u primjerima tako i u razvojnim alatima je besplatan i dostupan u otvorenom pristupu. Stoga je i ovaj sadržaj besplatno dostupan u otvorenom pristupu  **
+** Sav korišten kôd, kako u primjerima tako i u razvojnim alatima je besplatan i dostupan u otvorenom pristupu. Stoga je i ovaj sadržaj besplatno dostupan u otvorenom pristupu  **
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
