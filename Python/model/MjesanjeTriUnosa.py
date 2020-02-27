@@ -1,6 +1,4 @@
-from model.Mjesanje import Mjesanje
 from model.MjesanjeDvaUnosa import MjesanjeDvaUnosa
-from model.Rezultat import Rezultat
 
 
 class MjesanjeTriUnosa(MjesanjeDvaUnosa):

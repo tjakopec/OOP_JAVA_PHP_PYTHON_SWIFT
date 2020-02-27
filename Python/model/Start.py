@@ -1,10 +1,8 @@
 from model.Entitet import Entitet
 from model.Igrac import Igrac
 from model.Lokacija import Lokacija
-from model.Mjesanje import Mjesanje
 from model.MjesanjeDvaUnosa import MjesanjeDvaUnosa
 from model.MjesanjeTriUnosa import MjesanjeTriUnosa
-from model.Partija import Partija
 from model.PartijaDvaIgraca import PartijaDvaIgraca
 import json
 

@@ -1,4 +1,3 @@
-from abc import abstractmethod
 from model.Entitet import Entitet
 from model.Igrac import Igrac
 from model.Lokacija import Lokacija

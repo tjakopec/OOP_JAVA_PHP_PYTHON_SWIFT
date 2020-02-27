@@ -1,5 +1,4 @@
 from model.Partija import Partija
-from model.Rezultat import Rezultat
 
 
 class PartijaDvaPara(Partija):
