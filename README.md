@@ -81,6 +81,8 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
 * "stavi pravu stvar na pravo mjesto" 
 
 # Domensko znanje
+Programiranje je rješavanje problema. OOP su principi koje koristimo u programiranju. Moj problem je vođenje rezultat u kartaškoj igri Belot (Bela). Stoga je prikazan primjep OOP principa na podatkovnom modelu koji omogućuje vođenje rezultata u Beli. Belu mogu igrati dva, tri ili četiri igrača (dva para). Igrači odluče do kojeg broja žele igrati (501, 701, 1001,...). Partija Bele su sva mješanja tijekom kojeg igrač/i skupljaju bodove dok ne dosegnu broj do kojeg se igra partija. Jedno kartanje u pravilu se sastoji od više partija gdje igrači vode skupni rezultat tip: sinoć smo ja i Drajzla pobijedili Marija i Vinka 3:2. Tih tri dva znači da se odigralo 5 partija. Svaka partija se sastoji od mješanja. Na jednom mješanju postoje bodovi igrača. Ako igraju dva igrača onda zbroj bodova s zvanjem ne mora biti jednak 162 + zvanja, dok kod partija tri igrača i dva para ukupni zbroj bodova po mješanju mora biti 162 + zvanja. I sada kada pišem ovaj tekst čini se kao rocket science ali zapravo se radi o dvije matematičke operacije: zbrajanje i oduzimanje.
+
 
 
 # Fun facts
@@ -101,10 +103,6 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Class Object]
 * [Java Polymorphism Example]
 * [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]
-* []
-* []
-* []
-
 
 
 ** Sav korišten kôd, kako u primjerima tako i u razvojnim alatima je besplatan i dostupan u otvorenom pristupu. Stoga je i ovaj sadržaj besplatno dostupan u otvorenom pristupu  **
@@ -121,7 +119,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
    [Java Polymorphism Example]: <https://javatutorial.net/java-polymorphism-example>
    [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]: <http://www.btechsmartclass.com/java/java-oop-concepts.html>
-   []: <>
+
 
 
    
