@@ -1,6 +1,8 @@
 #  Principi objektno orijentiranog programiranja (OOP) s implementacijom u programskim jezicima Java, PHP i Python Skraćeno: OOP Java, PHP i Python
 
 Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
+<br />
+Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu prikazani svi OOP principi na ovoj stranici već oni najvažniji. Ostali su uredno prikazana u danim poveznicama. U različitim programskim jezicima je implementiran isti primjer kao rješenje problema domene vođenja rezultata kartaške ige Belot (Bela).
 
 
 # Klasa/Objekt
@@ -10,6 +12,8 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   <b>Objekt je pojavnost klase</b><br /><br />
   <img src="http://1.bp.blogspot.com/-kLY02rb59-4/U6YZP2IVRTI/AAAAAAAAASI/6imnFTmgioE/s1600/dog.gif">
 </p>
+
+## Zašto Klasa/Objekt?
 
 # Učahurivanje
 
@@ -25,6 +29,8 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   <p align="center">
   <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-encapsulation.png">
 </p>
+
+## Zašto Učahurivanje
 
 # Nasljeđivanje
 
@@ -51,7 +57,7 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   </ul> 
   <br />
 
-
+## Zašto Nasljeđivanje
 
 # Višeobličje (polimorfizam)
 
@@ -63,9 +69,12 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   
   Realizira se na način da se u nadklasi definira naziv ponašanja a u podklasama se konkretno ponašenje i implementira.
 
+## Zašto Višeobličje
 
 # Domensko znanje
 
+
+# Fun facts
 
 # Predavač
 Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozofskom fakultetu Osijek. Voditelj je Dvopredmetnog diplomskog studija informacijske tehnologije. Nositelj je kolegija vezanih uz informacijske tehnologije u društvenom području. Kao vanjski suradnik izvodi nastavu na Stručnom studiju informacijskih tehnologija na Odjelu za informacijske znanosti pri Sveučilištu u Zadru na kolegiju Razvoj mobilnih aplikacija. Veliki je zaljubljenik u informacijske tehnologije općenito.
