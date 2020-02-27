@@ -57,12 +57,14 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 
 <p align="center">
   <b>Princip kada podklasa definira svoje jedinstveno ponašanje a u isto vrijeme dalje dijeli iste funkcionalnosti ili ponašanje svoje nadklase. </b><br />
-  eng. Polymorphism potječe od 2 grčke riječi: "poly" i "morphs". Riječ "poly" znači mnogo (više), a "morphs" znači oblik. Dakle, polimorfizam znači "više oblika" pa je stoga izraz višeobličje prikadan prijevod :)<br />
+  eng. Polymorphism potječe od 2 grčke riječi: "poly" i "morphs". Riječ "poly" znači mnogo (više), a "morphs" znači oblik. Dakle, polimorfizam znači "više oblika" pa je stoga izraz višeobličje prikladan prijevod :)<br />
   <img src="http://www.btechsmartclass.com/java/java_images/OOP-Concept-Polymorphism.png"> <br />
 </p>
   
   Realizira se na način da se u nadklasi definira naziv ponašanja a u podklasama se konkretno ponašenje i implementira.
 
+
+# Domensko znanje
 
 
 # Predavač
