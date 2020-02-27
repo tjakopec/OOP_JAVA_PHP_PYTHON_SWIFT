@@ -118,6 +118,11 @@ Klase s svojstvima
 * Partija DVA PARA, igra gotova: false, Tomislav Jakopec i Marijan Zidar: 162 | Marija Zimska i Anita Račman: 202
 
 # Fun facts
+* Trajanje pripreme materijala cca 10 sati.
+* Završio s izradom materijala u četvrtak, 27. 02. 2020 u 14:20
+<img src="https://github.com/tjakopec/OOP_JAVA_PHP_PYTHON/blob/master/IMG_2634.jpeg?raw=true">
+* Na predavanju bilo XX polaznika
+
 
 # Predavač
 Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozofskom fakultetu Osijek. Voditelj je Dvopredmetnog diplomskog studija informacijske tehnologije. Nositelj je kolegija vezanih uz informacijske tehnologije u društvenom području. Kao vanjski suradnik izvodi nastavu na Stručnom studiju informacijskih tehnologija na Odjelu za informacijske znanosti pri Sveučilištu u Zadru na kolegiju Razvoj mobilnih aplikacija. Veliki je zaljubljenik u informacijske tehnologije općenito.
