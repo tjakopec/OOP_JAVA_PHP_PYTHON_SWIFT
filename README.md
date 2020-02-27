@@ -58,7 +58,7 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 <p align="center">
   <b>Princip kada podklasa definira svoje jedinstveno ponašanje a u isto vrijeme dalje dijeli iste funkcionalnosti ili ponašanje svoje nadklase. </b><br />
   eng. Polymorphism potječe od 2 grčke riječi: "poly" i "morphs". Riječ "poly" znači mnogo (više), a "morphs" znači oblik. Dakle, polimorfizam znači "više oblika" pa je stoga izraz višeobličje prikadan prijevod :)<br />
-  <img src="https://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PolymorphismShape.png"> <br />
+  <img src="http://www.btechsmartclass.com/java/java_images/OOP-Concept-Polymorphism.png"> <br />
 </p>
   
   Realizira se na način da se u nadklasi definira naziv ponašanja a u podklasama se konkretno ponašenje i implementira.
@@ -79,7 +79,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
 * [Class Object]
 * [Java Polymorphism Example]
-* []
+* [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]
 * []
 * []
 * []
@@ -98,7 +98,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
    [Java Polymorphism Example]: <https://javatutorial.net/java-polymorphism-example>
-   []: <>
+   [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]: <http://www.btechsmartclass.com/java/java-oop-concepts.html>
    []: <>
 
 
