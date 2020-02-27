@@ -18,8 +18,10 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   eng. Encapsulation zato što se klasa promatra kao kapsula.<br />
   <img src="https://www.protechbeach.com/wp-content/uploads/2019/03/image-6.png"> <br />
   </p>
+  <p>
   Uobičajeno da javne metode prate predložak naziva get set pa se takve metode nazivaju geteri i seteri. Literatura takve metode poznaje još pod nazivom Accessors (get) i Mutators (set).
   <br />
+  </p>
   <p align="center">
   <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-encapsulation.png">
 </p>
@@ -30,8 +32,8 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   <b>Princip kojim novoizgrađena klasa izvlači značajke (metode i svojstva) iz već postojeće klase. Koristeći nasljeđivanje podaci postaju dostupni hijerarhijskim redoslijedom.</b><br /><br />
 
   <img src="https://cdn.techbeamers.com/wp-content/uploads/2019/04/Inheritance-tree.png"> <br />
-  <img src="https://cdn.techbeamers.com/wp-content/uploads/2019/04/Java-Inheritance.png"> <br />
-  </p>
+  <img src="https://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PersonStudnetTeacher.png"> <br />
+</p>
 
   Klase u java programskom jeziku (htjele to ili ne) uvijek nasljeđuju java.lang.Object koji ima sljedeće metode
   <ul>
@@ -51,6 +53,12 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Using Accessors and Mutators in Java]
 * [Java Encapsulation Example]
 * [Inheritance in Java – OOP Concept]
+* [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
+* []
+* []
+* []
+* []
+* []
 * []
 
 
@@ -64,7 +72,12 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Using Accessors and Mutators in Java]: <https://www.thoughtco.com/accessors-and-mutators-2034335>
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
+   [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    []: <>
+   []: <>
+   []: <>
+   []: <>
+
 
    
 
