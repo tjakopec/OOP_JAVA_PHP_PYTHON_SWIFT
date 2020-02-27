@@ -97,7 +97,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Java Encapsulation Example]
 * [What is Encapsulation in Java - the WHAT, WHY and HOW]
 * [Inheritance in Java – OOP Concept]
-* [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
+* [Java Programming Tutorial OOP - Composition, Inheritance &amp; Polymorphism]
 * [Class Object]
 * [Java Polymorphism Example]
 * [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]
@@ -117,7 +117,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
    [What is Encapsulation in Java - the WHAT, WHY and HOW]<https://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
-   [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
+   [Java Programming Tutorial OOP - Composition, Inheritance &amp; Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
    [Java Polymorphism Example]: <https://javatutorial.net/java-polymorphism-example>
    [Java Tutorials - OOP Concepts | Encapsulation | Abstraction | Inheritance | Polymorphism]: <http://www.btechsmartclass.com/java/java-oop-concepts.html>
