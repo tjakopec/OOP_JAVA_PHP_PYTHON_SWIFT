@@ -1,5 +1,6 @@
-# OOP_JAVA_PHP_PYTHON
-Principi objektno orijentiranog programiranja (OOP) s implementacijom u programskim jezicima Java, PHP i Python Skraćeno: OOP Java, PHP i Python
+#  Principi objektno orijentiranog programiranja (OOP) s implementacijom u programskim jezicima Java, PHP i Python Skraćeno: OOP Java, PHP i Python
+
+Predavanje održano u četvrtak 27.2.2020. 18:00 u Caffe Bar Peppermint.
 
 
 # Klasa/Objekt
