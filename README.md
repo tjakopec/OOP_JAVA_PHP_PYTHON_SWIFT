@@ -17,11 +17,11 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   <b>Princip kojim klasa skriva svoja svojstva (čini ih privatnima) te omogućuje pristup svojstvima putem javnih metoda</b><br /><br />
   eng. Encapsulation zato što se klasa promatra kao kapsula.<br />
   <img src="https://www.protechbeach.com/wp-content/uploads/2019/03/image-6.png"> <br />
-  </p>
-  <p>
+</p>
+  
   Uobičajeno da javne metode prate predložak naziva get set pa se takve metode nazivaju geteri i seteri. Literatura takve metode poznaje još pod nazivom Accessors (get) i Mutators (set).
   <br />
-  </p>
+  
   <p align="center">
   <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-encapsulation.png">
 </p>
@@ -37,7 +37,17 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 
   Klase u java programskom jeziku (htjele to ili ne) uvijek nasljeđuju java.lang.Object koji ima sljedeće metode
   <ul>
-  <li>equals(Object obj)</li>
+  <li>protected Object	clone()</li>
+  <li>boolean	equals(Object obj)</li>
+  <li>protected void	finalize()</li>
+  <li>Class<?>	getClass()</li>
+  <li>int	hashCode()</li>
+  <li>void	notify()</li>
+  <li>void	notifyAll()</li>
+  <li>String	toString()</li>
+  <li>void	wait()</li>
+  <li>void	wait(long timeout)</li>
+  <li>void	wait(long timeout, int nanos)</li>
   </ul> 
   <br />
 
@@ -54,7 +64,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Java Encapsulation Example]
 * [Inheritance in Java – OOP Concept]
 * [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
-* []
+* [Class Object]
 * []
 * []
 * []
@@ -73,7 +83,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
-   []: <>
+   [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
    []: <>
    []: <>
    []: <>
