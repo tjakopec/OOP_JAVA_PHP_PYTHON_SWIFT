@@ -115,7 +115,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Encapsulation In Java,Real Time Example,Diagram | ProtechBeach]: <https://www.protechbeach.com/java/encapsulation-in-java-with-real-time-example-with-diagram/>
    [Using Accessors and Mutators in Java]: <https://www.thoughtco.com/accessors-and-mutators-2034335>
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
-   [What is Encapsulation in Java - the WHAT, WHY and HOW]<https://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how>
+   [What is Encapsulation in Java - the WHAT, WHY and HOW]: <https://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    [Java Programming Tutorial OOP - Composition, Inheritance &amp; Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
