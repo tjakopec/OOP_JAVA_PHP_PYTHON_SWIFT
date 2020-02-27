@@ -52,6 +52,19 @@ Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
   <br />
 
 
+
+# Višeobličje (polimorfizam)
+
+<p align="center">
+  <b>Princip kada podklasa definira svoje jedinstveno ponašanje a u isto vrijeme dalje dijeli iste funkcionalnosti ili ponašanje svoje nadklase. </b><br />
+  eng. Polymorphism potječe od 2 grčke riječi: "poly" i "morphs". Riječ "poly" znači mnogo (više), a "morphs" znači oblik. Dakle, polimorfizam znači "više oblika" pa je stoga izraz višeobličje prikadan prijevod :)<br />
+  <img src="https://javatutorial.net/wp-content/uploads/2017/10/java-polymorphism-example.png"> <br />
+</p>
+  
+  Realizira se na način da se u nadklasi definira naziv ponašanja a u podklasama se konkretno ponašenje i implementira.
+
+
+
 # Predavač
 Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozofskom fakultetu Osijek. Voditelj je Dvopredmetnog diplomskog studija informacijske tehnologije. Nositelj je kolegija vezanih uz informacijske tehnologije u društvenom području. Kao vanjski suradnik izvodi nastavu na Stručnom studiju informacijskih tehnologija na Odjelu za informacijske znanosti pri Sveučilištu u Zadru na kolegiju Razvoj mobilnih aplikacija. Veliki je zaljubljenik u informacijske tehnologije općenito.
 
@@ -65,7 +78,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Inheritance in Java – OOP Concept]
 * [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]
 * [Class Object]
-* []
+* [Java Polymorphism Example]
 * []
 * []
 * []
@@ -84,7 +97,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    [Java Programming Tutorial OOP - Composition, Inheritance & Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
-   []: <>
+   [Java Polymorphism Example]: <https://javatutorial.net/java-polymorphism-example>
    []: <>
    []: <>
 
