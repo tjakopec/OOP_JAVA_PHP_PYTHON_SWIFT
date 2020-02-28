@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Nova.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d1klasaobjekt/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d1klasaobjekt/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Osoba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/nikadaneraditiovako/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/nikadaneraditiovako/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Osoba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Racun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/RadniNalog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Dokument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Osoba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Racun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/RadniNalog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Partija.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Spol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/Json$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/Json.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/MjesanjeAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/PartijaAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/model/MjesanjeTriUnosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/MjesanjeTriUnosa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Dokument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Racun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Racun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/RadniNalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/RadniNalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +171,7 @@
       <workItem from="1582478995136" duration="338000" />
       <workItem from="1582712054759" duration="1920000" />
       <workItem from="1582789890925" duration="3673000" />
-      <workItem from="1582821012780" duration="3193000" />
+      <workItem from="1582821012780" duration="3672000" />
     </task>
     <servers />
   </component>
@@ -238,25 +195,25 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="478" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.23.1400.877@40.23.1400.877" timestamp="1582790436928" />
-    <state width="1838" height="289" key="GridCell.Tab.0.bottom" timestamp="1582826470575">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1358" height="133" key="GridCell.Tab.0.bottom" timestamp="1582871143342">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
+    <state width="1358" height="133" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
     <state width="1838" height="289" key="GridCell.Tab.0.bottom/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470575" />
-    <state width="1838" height="289" key="GridCell.Tab.0.center" timestamp="1582826470574">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1358" height="133" key="GridCell.Tab.0.center" timestamp="1582871143342">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
+    <state width="1358" height="133" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
     <state width="1838" height="289" key="GridCell.Tab.0.center/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
-    <state width="1838" height="289" key="GridCell.Tab.0.left" timestamp="1582826470574">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1358" height="133" key="GridCell.Tab.0.left" timestamp="1582871143342">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
+    <state width="1358" height="133" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
     <state width="1838" height="289" key="GridCell.Tab.0.left/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
-    <state width="1838" height="289" key="GridCell.Tab.0.right" timestamp="1582826470574">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1358" height="133" key="GridCell.Tab.0.right" timestamp="1582871143342">
+      <screen x="40" y="23" width="1400" height="877" />
     </state>
-    <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
+    <state width="1358" height="133" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
     <state width="1838" height="289" key="GridCell.Tab.0.right/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
     <state x="311" y="116" key="SettingsEditor" timestamp="1582823286666">
       <screen x="40" y="23" width="1880" height="1057" />
