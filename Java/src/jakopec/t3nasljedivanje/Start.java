@@ -1,8 +1,17 @@
 package jakopec.t3nasljedivanje;
 
+import javax.print.attribute.standard.NumberOfDocuments;
+
 public class Start {
 
     public  Start(){
+
+
+        Nova n = new Nova();
+        System.out.println(n);
+
+
+
 
         Dokument dokument = new Dokument();
         dokument.setSifra(1);

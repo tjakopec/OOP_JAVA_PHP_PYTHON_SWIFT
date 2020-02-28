@@ -10,11 +10,13 @@ public class Start {
         System.out.println(dokument.opisiMe());
 
 
-        dokument = new Dokument(2,"2020-002",100, new Osoba(1,"Tomislav","Jakopec"));
+        dokument = new Dokument(2,"2020-002",100,
+                new Osoba(1,"Tomislav","Jakopec"));
         System.out.println(dokument.opisiMe());
 
 
-        System.out.println(new Dokument(3,"2020-003",200, new Osoba(1,"Pero","Perić")).opisiMe());
+        System.out.println(new Dokument(3,"2020-003",200,
+                new Osoba(1,"Pero","Perić")).opisiMe());
 
 
     }

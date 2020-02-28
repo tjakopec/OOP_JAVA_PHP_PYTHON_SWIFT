@@ -7,6 +7,7 @@ public class Dokument {
     private Osoba izradio;
 
     public Dokument() {
+
     }
 
     public Dokument(int sifra, String brojDokumenta, double iznos, Osoba izradio) {

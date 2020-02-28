@@ -15,6 +15,7 @@ class MjesanjeDvaUnosa: Mjesanje, MjesanjeProtokol{
     private var bodovaDrugiUnos: Int
     private var zvanjeDrugiUnos: Int
     
+    
     init(sifra: Int = 0, stiglja: Bool = false, belot: Bool = false, datumUnosa: Date = Date.init(), bodovaPrviUnos: Int = 0, zvanjePrviUnos: Int = 0, bodovaDrugiUnos: Int = 0,  zvanjeDrugiUnos: Int = 0) {
         self.bodovaPrviUnos=bodovaPrviUnos
         self.zvanjePrviUnos=zvanjePrviUnos

@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="" />
+    <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Nova.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d1klasaobjekt/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d1klasaobjekt/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Osoba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/nikadaneraditiovako/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d2ucahurivanje/nikadaneraditiovako/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Osoba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Racun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/RadniNalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d3nasljedivanje/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Dokument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Osoba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Racun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/RadniNalog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/d4polimorfizam/Start.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Entitet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Igrac.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Lokacija.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Mjesanje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeDvaUnosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/MjesanjeTriUnosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Partija.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaIgraca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaDvaPara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/PartijaTriIgraca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Rezulat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/model/Spol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/Json$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/Json.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/MjesanjeAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/pomocno/PartijaAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/model/MjesanjeTriUnosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/model/MjesanjeTriUnosa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t1klasaobjekt/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Dokument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t2ucahurivanje/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t3nasljedivanje/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Dokument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Dokument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Racun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/Racun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/RadniNalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jakopec/t4polimorfizam/RadniNalog.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -61,13 +106,13 @@
       <recent name="$PROJECT_DIR$/src/d3nasljedivanje" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start (4)">
+  <component name="RunManager" selected="Application.Start (3)">
     <configuration name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d1klasaobjekt.Start" />
+      <option name="MAIN_CLASS_NAME" value="jakopec.t2ucahurivanje.Start" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d1klasaobjekt.*" />
+          <option name="PATTERN" value="jakopec.t2ucahurivanje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Start (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d2ucahurivanje.Start" />
+      <option name="MAIN_CLASS_NAME" value="jakopec.t3nasljedivanje.Start" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d2ucahurivanje.*" />
+          <option name="PATTERN" value="jakopec.t3nasljedivanje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="Start (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d3nasljedivanje.Start" />
+      <option name="MAIN_CLASS_NAME" value="jakopec.Start" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d3nasljedivanje.*" />
+          <option name="PATTERN" value="jakopec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d4polimorfizam.Start" />
+    <configuration name="Start (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jakopec.t2ucahurivanje.nikadaneraditiovako.Start" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d4polimorfizam.*" />
+          <option name="PATTERN" value="jakopec.t2ucahurivanje.nikadaneraditiovako.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +160,14 @@
       </method>
     </configuration>
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jakopec.Start" />
+      <option name="MAIN_CLASS_NAME" value="jakopec.t4polimorfizam.Start" />
       <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jakopec.t4polimorfizam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Start (4)" />
         <item itemvalue="Application.Start (3)" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Start (2)" />
         <item itemvalue="Application.Start (1)" />
+        <item itemvalue="Application.Start (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +214,7 @@
       <workItem from="1582478995136" duration="338000" />
       <workItem from="1582712054759" duration="1920000" />
       <workItem from="1582789890925" duration="3673000" />
+      <workItem from="1582821012780" duration="3193000" />
     </task>
     <servers />
   </component>
@@ -173,10 +225,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582791042740">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="729" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1582825338024">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877@40.23.1400.877" timestamp="1582791042740" />
+    <state x="729" y="185" key="#com.intellij.ide.util.MemberChooser/40.23.1880.1057@40.23.1880.1057" timestamp="1582825338024" />
     <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582269610606">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
@@ -185,26 +238,31 @@
       <screen x="40" y="23" width="1400" height="877" />
     </state>
     <state x="478" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.23.1400.877@40.23.1400.877" timestamp="1582790436928" />
-    <state width="1358" height="230" key="GridCell.Tab.0.bottom" timestamp="1582812800694">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1838" height="289" key="GridCell.Tab.0.bottom" timestamp="1582826470575">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
-    <state width="1358" height="230" key="GridCell.Tab.0.center" timestamp="1582812800694">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1838" height="289" key="GridCell.Tab.0.bottom/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470575" />
+    <state width="1838" height="289" key="GridCell.Tab.0.center" timestamp="1582826470574">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
-    <state width="1358" height="230" key="GridCell.Tab.0.left" timestamp="1582812800694">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1838" height="289" key="GridCell.Tab.0.center/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
+    <state width="1838" height="289" key="GridCell.Tab.0.left" timestamp="1582826470574">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
-    <state width="1358" height="230" key="GridCell.Tab.0.right" timestamp="1582812800694">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1838" height="289" key="GridCell.Tab.0.left/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
+    <state width="1838" height="289" key="GridCell.Tab.0.right" timestamp="1582826470574">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state width="1358" height="230" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582812800694" />
-    <state x="242" y="100" key="SettingsEditor" timestamp="1582271313869">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1838" height="289" key="GridCell.Tab.0.right/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
+    <state x="311" y="116" key="SettingsEditor" timestamp="1582823286666">
+      <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state x="242" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1582271313869" />
+    <state x="311" y="116" key="SettingsEditor/40.23.1880.1057@40.23.1880.1057" timestamp="1582823286666" />
     <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1582269601835">
       <screen x="40" y="23" width="1400" height="877" />
     </state>

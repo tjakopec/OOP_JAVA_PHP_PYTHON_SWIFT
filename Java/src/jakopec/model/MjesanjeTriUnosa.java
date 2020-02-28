@@ -24,8 +24,11 @@ public class MjesanjeTriUnosa extends MjesanjeDvaUnosa {
 
     @Override
     public Rezulat getRezultat() {
-        return new Rezulat(getBodovaPrviUnos() + getZvanjePrviUnos(),
-                getBodovaDrugiUnos() + getZvanjeDrugiUnos(),
-                getBodovaTreciUnos() + getZvanjeTreciUnos());
+        Rezulat r = super.getRezultat();
+        r.setTreci(getBodovaTreciUnos() + getZvanjeTreciUnos());
+        return  r;
+        //return new Rezulat(getBodovaPrviUnos() + getZvanjePrviUnos(),
+        //        getBodovaDrugiUnos() + getZvanjeDrugiUnos(),
+        //        getBodovaTreciUnos() + getZvanjeTreciUnos());
     }
 }

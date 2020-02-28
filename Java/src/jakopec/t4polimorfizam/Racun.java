@@ -9,6 +9,11 @@ public class Racun extends Dokument {
         System.out.println("Obrađujem račun");
     }
 
+    @Override
+    public String getOpis() {
+        return null;
+    }
+
     public Racun() {
         super();
     }

@@ -10,6 +10,8 @@ public abstract class Dokument extends Object{
 
     public abstract void obradiDokument();
 
+    public abstract  String getOpis();
+
     public Dokument() {
     }
 

@@ -9,6 +9,11 @@ public class RadniNalog extends Dokument {
         System.out.println("Obrađujem radni nalog");
     }
 
+    @Override
+    public String getOpis() {
+        return null;
+    }
+
     public RadniNalog(){
 
     }
