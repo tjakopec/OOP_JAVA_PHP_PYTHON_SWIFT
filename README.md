@@ -42,7 +42,7 @@ Ovo neka bude početna točka za čitanje literature (na dnu stranice). Nisu pri
   <b>Princip kojim novoizgrađena klasa izvlači značajke (metode i svojstva) iz već postojeće klase. Koristeći nasljeđivanje podaci postaju dostupni hijerarhijskim redoslijedom.</b><br /><br />
 
   <img src="https://cdn.techbeamers.com/wp-content/uploads/2019/04/Inheritance-tree.png"> <br />
-  <img src="https://www3.ntu.edu.sg/home/ehchua/programming/java/images/OOP_PersonStudnetTeacher.png"> <br />
+  <img src="https://cs.lmu.edu/~ray/images/figures1uml.png"> <br />
 </p>
 
   Klase u java programskom jeziku (htjele to ili ne) uvijek nasljeđuju java.lang.Object koji ima sljedeće metode
@@ -137,6 +137,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
 * [Using Accessors and Mutators in Java]
 * [Java Encapsulation Example]
 * [What is Encapsulation in Java - the WHAT, WHY and HOW]
+* [Inheritance and Polymorphism]
 * [Inheritance in Java – OOP Concept]
 * [Java Programming Tutorial OOP - Composition, Inheritance &amp; Polymorphism]
 * [Class Object]
@@ -153,6 +154,7 @@ Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozo
    [Using Accessors and Mutators in Java]: <https://www.thoughtco.com/accessors-and-mutators-2034335>
    [Java Encapsulation Example]: <https://javatutorial.net/java-encapsulation-example>
    [What is Encapsulation in Java - the WHAT, WHY and HOW]: <https://www.codejava.net/java-core/the-java-language/what-is-encapsulation-in-java-the-what-why-and-how>
+   [Inheritance and Polymorphism]: <https://cs.lmu.edu/~ray/notes/inheritance/>
    [Inheritance in Java – OOP Concept]: <https://www.techbeamers.com/java-inheritance/>
    [Java Programming Tutorial OOP - Composition, Inheritance &amp; Polymorphism]: <https://www3.ntu.edu.sg/home/ehchua/programming/java/J3b_OOPInheritancePolymorphism.html>
    [Class Object]: <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>
