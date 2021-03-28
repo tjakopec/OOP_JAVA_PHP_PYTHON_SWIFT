@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Entitet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Igrac.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Lokacija.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Mjesanje.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/MjesanjeDvaUnosa.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/MjesanjeTriUnosa.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Partija.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaDvaIgraca.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaDvaPara.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaTriIgraca.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Rezultat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/podaci.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/project-cache/CSHARP-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/project-cache/CSHARP-Debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/CSHARP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/CSHARP.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/CSHARP.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/CSHARP.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,22 +183,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1352" height="228" key="GridCell.Tab.0.bottom" timestamp="1616926601975">
+    <state width="1352" height="228" key="GridCell.Tab.0.bottom" timestamp="1616933982759">
       <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state width="1352" height="228" key="GridCell.Tab.0.bottom/46.25.1394.875@46.25.1394.875" timestamp="1616926601975" />
-    <state width="1352" height="228" key="GridCell.Tab.0.center" timestamp="1616926601974">
+    <state width="1352" height="228" key="GridCell.Tab.0.bottom/46.25.1394.875@46.25.1394.875" timestamp="1616933982759" />
+    <state width="1352" height="228" key="GridCell.Tab.0.center" timestamp="1616933982759">
       <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state width="1352" height="228" key="GridCell.Tab.0.center/46.25.1394.875@46.25.1394.875" timestamp="1616926601974" />
-    <state width="1352" height="228" key="GridCell.Tab.0.left" timestamp="1616926601973">
+    <state width="1352" height="228" key="GridCell.Tab.0.center/46.25.1394.875@46.25.1394.875" timestamp="1616933982759" />
+    <state width="1352" height="228" key="GridCell.Tab.0.left" timestamp="1616933982758">
       <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state width="1352" height="228" key="GridCell.Tab.0.left/46.25.1394.875@46.25.1394.875" timestamp="1616926601973" />
-    <state width="1352" height="228" key="GridCell.Tab.0.right" timestamp="1616926601974">
+    <state width="1352" height="228" key="GridCell.Tab.0.left/46.25.1394.875@46.25.1394.875" timestamp="1616933982758" />
+    <state width="1352" height="228" key="GridCell.Tab.0.right" timestamp="1616933982759">
       <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state width="1352" height="228" key="GridCell.Tab.0.right/46.25.1394.875@46.25.1394.875" timestamp="1616926601974" />
+    <state width="1352" height="228" key="GridCell.Tab.0.right/46.25.1394.875@46.25.1394.875" timestamp="1616933982759" />
   </component>
   <component name="masterDetails">
     <states>

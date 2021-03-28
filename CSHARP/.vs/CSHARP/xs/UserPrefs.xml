@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{D597D271-1461-4F87-9496-5B846E61BA51}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSHARP/Model/PartijaTriIgraca.cs">
-    <Files>
-      <File FileName="CSHARP/Model/Partija.cs" Line="19" Column="24" />
-      <File FileName="CSHARP/Model/PartijaTriIgraca.cs" Line="25" Column="37" />
-      <File FileName="CSHARP/Program.cs" Line="56" Column="30" />
-      <File FileName="CSHARP/podaci.json" Line="10" Column="15" />
-      <File FileName="CSHARP/Model/Igrac.cs" Line="13" Column="40" />
-      <File FileName="CSHARP/Model/PartijaDvaPara.cs" Line="16" Column="1" />
-      <File FileName="CSHARP/Model/PartijaDvaIgraca.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
