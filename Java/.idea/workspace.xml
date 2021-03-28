@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b456ea-d04f-432a-9f0f-fe75d30b9b9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Swift4/Swift4.xcodeproj/project.xcworkspace/xcuserdata/tjakopec.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Entitet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Igrac.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Lokacija.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Mjesanje.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/MjesanjeDvaUnosa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/MjesanjeTriUnosa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Partija.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaDvaIgraca.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaDvaPara.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/PartijaTriIgraca.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Model/Rezultat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/podaci.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/project-cache/CSHARP-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/.vs/CSHARP/xs/project-cache/CSHARP-Debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/CSHARP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/CSHARP.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/CSHARP.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/CSHARP.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/Debug/net5.0/CSHARP.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../CSHARP/CSHARP/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +49,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,11 +57,13 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582210405975" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/d4polimorfizam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -182,52 +204,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="185" key="#com.intellij.ide.util.MemberChooser" timestamp="1582825338024">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1352" height="228" key="GridCell.Tab.0.bottom" timestamp="1616926601975">
+      <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state x="553" y="157" key="#com.intellij.ide.util.MemberChooser/40.23.1400.877@40.23.1400.877" timestamp="1582791042740" />
-    <state x="729" y="185" key="#com.intellij.ide.util.MemberChooser/40.23.1880.1057@40.23.1880.1057" timestamp="1582825338024" />
-    <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582269610606">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1352" height="228" key="GridCell.Tab.0.bottom/46.25.1394.875@46.25.1394.875" timestamp="1616926601975" />
+    <state width="1352" height="228" key="GridCell.Tab.0.center" timestamp="1616926601974">
+      <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state x="573" y="359" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269610606" />
-    <state x="478" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582790436928">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1352" height="228" key="GridCell.Tab.0.center/46.25.1394.875@46.25.1394.875" timestamp="1616926601974" />
+    <state width="1352" height="228" key="GridCell.Tab.0.left" timestamp="1616926601973">
+      <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state x="478" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/40.23.1400.877@40.23.1400.877" timestamp="1582790436928" />
-    <state width="1358" height="133" key="GridCell.Tab.0.bottom" timestamp="1582871143342">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state width="1352" height="228" key="GridCell.Tab.0.left/46.25.1394.875@46.25.1394.875" timestamp="1616926601973" />
+    <state width="1352" height="228" key="GridCell.Tab.0.right" timestamp="1616926601974">
+      <screen x="46" y="25" width="1394" height="875" />
     </state>
-    <state width="1358" height="133" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
-    <state width="1838" height="289" key="GridCell.Tab.0.bottom/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470575" />
-    <state width="1358" height="133" key="GridCell.Tab.0.center" timestamp="1582871143342">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state width="1358" height="133" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
-    <state width="1838" height="289" key="GridCell.Tab.0.center/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
-    <state width="1358" height="133" key="GridCell.Tab.0.left" timestamp="1582871143342">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state width="1358" height="133" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
-    <state width="1838" height="289" key="GridCell.Tab.0.left/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
-    <state width="1358" height="133" key="GridCell.Tab.0.right" timestamp="1582871143342">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state width="1358" height="133" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582871143342" />
-    <state width="1838" height="289" key="GridCell.Tab.0.right/40.23.1880.1057@40.23.1880.1057" timestamp="1582826470574" />
-    <state x="311" y="116" key="SettingsEditor" timestamp="1582823286666">
-      <screen x="40" y="23" width="1880" height="1057" />
-    </state>
-    <state x="242" y="100" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1582271313869" />
-    <state x="311" y="116" key="SettingsEditor/40.23.1880.1057@40.23.1880.1057" timestamp="1582823286666" />
-    <state x="394" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1582269601835">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state x="394" y="296" key="com.intellij.ide.util.TipDialog/40.23.1400.877@40.23.1400.877" timestamp="1582269601835" />
-    <state x="502" y="76" key="refactoring.ChangeSignatureDialog" timestamp="1582790412535">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state x="502" y="76" key="refactoring.ChangeSignatureDialog/40.23.1400.877@40.23.1400.877" timestamp="1582790412535" />
+    <state width="1352" height="228" key="GridCell.Tab.0.right/46.25.1394.875@46.25.1394.875" timestamp="1616926601974" />
   </component>
   <component name="masterDetails">
     <states>

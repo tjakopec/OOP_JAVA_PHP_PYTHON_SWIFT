@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FUC64vJ0PAoVBGhLgLXQu0I99I8a81lOwT0kRciN0Nj0us3Zr6xZDZM5A/y3cBdRdNmkODsaIj4OM2sol0SdTg==",
+  "dgSpecHash": "ftX3cTbHYtjkju3zrzX5MP5fROy111xBSYN1eOTn6zUn5kOA8I+NQLho5E41GnrWBjWbXprQnvvaRS+/mc15Kg==",
   "success": true,
   "projectFilePath": "/Applications/XAMPP/xamppfiles/htdocs/OOP_JAVA_PHP_PYTHON_SWIFT/CSHARP/CSHARP/CSHARP.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/tjakopec/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

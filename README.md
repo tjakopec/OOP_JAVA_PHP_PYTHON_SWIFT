@@ -1,4 +1,4 @@
-#  OOP Java, PHP, Python i Swift
+#  OOP Java, PHP, Python, Swift i C#
 
 Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 <br />
@@ -116,6 +116,11 @@ Klase s svojstvima
 * Partija DVA IGRAČA, igra gotova: false, Tomislav Jakopec: 162 | Marijan Zidar: 202
 * Partija TRI IGRAČA, igra gotova: true, Tomislav Jakopec: 60 | Marijan Zidar: 576 | Marija Zimska: 456
 * Partija DVA PARA, igra gotova: false, Tomislav Jakopec i Marijan Zidar: 162 | Marija Zimska i Anita Račman: 202
+
+## C#
+* Partija DVA IGRAČA, igra gotova: False, Tomislav Jakopec: 162 | Marijan Zidar: 202
+* Partija TRI IGRAČA, igra gotova: True, Tomislav Jakopec : 60 | Marijan Zidar : 576 | Marija Zimska: 456
+* Partija DVA PARA, igra gotova: False, Tomislav Jakopec i Marijan Zidar : 162 | Marija Zimska i Anita Račman: 202
 
 # Fun facts
 * &gt; 50 commits
