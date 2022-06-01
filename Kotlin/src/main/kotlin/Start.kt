@@ -14,7 +14,8 @@ class Start {
 
     init {
         kreirajRucno()
-        Json.toJsonFile("podaci.json", partije)
+        println(partije.toString())
+        //Json.toJsonFile("podaci.json", partije)
     }
 
     private fun kreirajRucno() {

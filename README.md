@@ -122,6 +122,11 @@ Klase s svojstvima
 * Partija TRI IGRAČA, igra gotova: True, Tomislav Jakopec : 60 | Marijan Zidar : 576 | Marija Zimska: 456
 * Partija DVA PARA, igra gotova: False, Tomislav Jakopec i Marijan Zidar : 162 | Marija Zimska i Anita Račman: 202
 
+## Kotlin
+* Partija DVA IGRAČA, igra gotova: false, Tomislav Jakopec: 162 | Marijan Zidar: 202
+* Partija TRI IGRAČA, igra gotova: true, Tomislav Jakopec: 60 | Marijan Zidar: 576 | Marija Zimska: 456
+* Partija DVA PARA, igra gotova: false, Tomislav Jakopec i Marijan Zidar: 162 | Marija Zimska i Anita Račman: 202
+
 # Fun facts
 * &gt; 50 commits
 * Trajanje pripreme materijala cca 10 sati.
@@ -134,6 +139,8 @@ Klase s svojstvima
 # Predavač
 Tomislav Jakopec radi kao docent na Odsjeku za informacijske znanosti pri Filozofskom fakultetu Osijek. Voditelj je Dvopredmetnog diplomskog studija informacijske tehnologije. Nositelj je kolegija vezanih uz informacijske tehnologije u društvenom području. Kao vanjski suradnik izvodi nastavu na Stručnom studiju informacijskih tehnologija na Odjelu za informacijske znanosti pri Sveučilištu u Zadru na kolegiju Razvoj mobilnih aplikacija. Veliki je zaljubljenik u informacijske tehnologije općenito.
 
+# Suradnik na Kotlin
+[Matija Skrletović] (https://github.com/skrla)
 
 
 # Korišteni izvori
