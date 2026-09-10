@@ -1,4 +1,4 @@
-#  OOP Java, PHP, Python, Swift, C# i Kotlin
+#  OOP Java, PHP, Python, Swift, C#, Kotlin i JavaScript
 
 Predavanje održano u četvrtak 27. 02. 2020. 18:00 u Caffe Bar Peppermint.
 <br />
