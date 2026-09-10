@@ -1,0 +1,21 @@
+{
+  "name": "javascript-oop",
+  "version": "1.0.0",
+  "description": "Implementacija principa objektno orijentiranog programiranja (OOP) u JavaScriptu kroz primjer aplikacije za praćenje rezultata kartaške igre Bela.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martadukic2004-ops/Javascript-OOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/martadukic2004-ops/Javascript-OOP/issues"
+  },
+  "homepage": "https://github.com/martadukic2004-ops/Javascript-OOP#readme"
+}
